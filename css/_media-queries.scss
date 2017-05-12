@@ -1,0 +1,132 @@
+@media screen and (max-width: 1366px){
+  
+  .hero{
+    .escudo-grocio{
+      .g-logo{
+        margin-left: 20%;
+        .logo{
+          img{
+            //tamaño del logo
+          }
+        }
+      }
+    }
+    .images-menu{
+      .heros{
+        img{
+          //tamaño de imagenes del menu hero
+         
+        }
+      }
+    }
+    }
+  }
+    
+@media screen and (max-width: 1280px){
+  .hero{
+    .escudo-grocio{
+      //display: inline-block;
+      .g-logo{
+      //margin-left: 32%;
+        margin-top: 25px;
+        .logo{
+          //margin-top: 13px;
+
+          img{
+            width: 38px;
+          }
+        }
+        .titulo{
+        width: 160px;
+          margin-left: 45px;
+        }
+        h1{
+          //float: right;
+
+          margin-top: 15px;
+
+          font-size: 16px;
+
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1230px){
+  
+}
+@media screen and (max-width: 1200px){
+  .images-menu{
+      .heros{
+        img{
+          //tamaño de imagenes del menu hero
+          width: 160px;
+        }
+      }
+    }
+  .fondomenu{
+      .menu-fondo{
+        //position: relative;
+        //left: 6%;
+       // margin-top: 2px;
+        //display: block;
+        margin-right: -15%;
+      }
+    }
+  .hero{
+    
+    .escudo-grocio{
+      //width: 17%;
+      .g-logo{
+      margin-left: 35%;
+        margin-top: 15px;
+        .logo{
+          //margin-top: 13px;
+
+          img{
+            width: 38px;
+          }
+        }
+        .titulo{
+        width: 160px;
+          margin-left: 45px;
+        }
+        h1{
+          //float: right;
+
+          margin-top: 15px;
+
+          font-size: 16px;
+
+        }
+      }
+    }
+  }
+  header{
+  .menu-global{
+    margin: 0 5% 0 0;
+    }
+  }
+}
+@media screen and (max-width: 1070px){
+   .images-menu{
+      .heros{
+        img{
+          //tamaño de imagenes del menu hero
+          width: 145px;
+          margin-left: -18px;
+        }
+      }
+    }
+  .fondomenu{
+      .menu-fondo{
+        //position: relative;
+        //left: 6%;
+       // margin-top: 2px;
+        //display: block;
+        margin-right: -23%;
+      }
+    }
+}
+
+  

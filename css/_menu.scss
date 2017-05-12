@@ -1,0 +1,123 @@
+$menu-color: #494947;
+
+.hero{
+  //position: relative;
+  overflow: hidden;
+  .escudo-grocio{
+    display: inline-block;
+    .g-logo{
+    margin-left: 32%;
+      .logo{
+        margin-top: 13px;
+
+        img{
+          float: left;
+        }
+      }
+      .titulo{
+        width: 210px;
+        height: 48px;
+        margin-left: 50px;
+      }
+      h1{
+
+        float: right;
+        margin-top: 17px;
+        padding: 0;
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: -0.9px;
+        color: $menu-color;
+      }
+    }
+  }
+}
+
+.images-menu{
+  padding: 0;
+  margin: 0;
+  display: flex;
+    align-items:flex-end;
+  justify-content: flex-end;
+  .heros{
+    //align-items: center;
+    margin-right: 1.5%;
+    
+    img{
+      margin: 21px 0 0 -22px;
+      padding: 0;
+    
+    }
+  }
+  
+  .primero{
+    margin-left: 0;
+  }
+  .quinto{
+    
+  }
+  
+  
+}
+
+.menu-fondo{
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+
+.menu{
+  .columna-menu{
+    //padding: 0;
+  }
+  margin-top: 10px;
+  .menu-global{
+     float: right;
+      margin: 0 8% 0 0;
+    padding: 0;
+    .fondo-nav{
+    width: 650px; 
+     height: 35px; 
+     background: #fff;
+     -webkit-transform: skew(-20deg);
+     -moz-transform: skew(-20deg);
+     -ms-transform: skew(-20deg);
+     -o-transform: skew(-20deg);
+     transform: skew(-20deg);
+    
+      z-index: 10;
+    }
+    ul{
+      width: 650px;
+      position: relative;
+      z-index: 15;
+      list-style: none; 
+        //line-height: 100%;
+      display: inline-block;
+      text-align: center;
+      top: -27px;
+      
+      li{
+       
+          display: inline-block;
+        list-style: none;
+         
+        a{
+          //display: inline-block;
+          padding: 9.5px 20px 9px 20px;
+          color: $menu-color;
+          font-weight: 300;
+          &:link{
+            text-decoration: none;
+          }
+          &:hover{
+            color: white;
+            background: $menu-color;
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,48 @@
+.noticias{
+  margin-top: -5px;//20 es el cero
+  
+  .box-noticias{
+    //position: relative;
+    width: 90%;
+    height: 550px;
+	background: rgba(243,247,240,.8);
+    margin-left: 6%;
+    .titulo-noticia{
+      //width: 61px;
+	  height: 24px;
+
+	  font-family: Roboto;
+      font-size: 18px;
+      color: #494947;
+      //padding: 16px 0 0 19px;
+    }
+    .linea{
+      width: 140px;
+      height: 2px;
+      border: solid 1.2px #494947;
+      margin-top: -14px;
+      //margin-left: 20px;
+    }
+    .btn-noticia-global{
+  display: block;
+  margin:auto;
+  width: 210px;
+	height: 36px;
+
+  .btn-noticias{
+    
+  }
+  a{
+    padding: 7px 30px;
+    background: rgba(255, 92, 67, 1);
+   
+    text-decoration: none;
+    color: white;
+    &:hover{
+      background: rgba(255, 92, 67, 0.8)
+    }
+  }
+  
+}
+  }
+}
