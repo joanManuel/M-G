@@ -216,7 +216,7 @@
     width: 160px; }
 
   .fondomenu .menu-fondo {
-    margin-right: -15%; }
+    margin-right: -15.9%; }
 
   .hero .escudo-grocio .g-logo {
     margin-left: 35%;
@@ -232,6 +232,12 @@
 
   header .menu-global {
     margin: 0 5% 0 0; } }
+@media screen and (max-width: 1160px) {
+  .fondomenu .menu-fondo {
+    margin-right: -16.5%; } }
+@media screen and (max-width: 1110px) {
+  .fondomenu .menu-fondo {
+    margin-right: -17.2%; } }
 @media screen and (max-width: 1070px) {
   .images-menu .heros img {
     width: 145px;
@@ -239,6 +245,12 @@
 
   .fondomenu .menu-fondo {
     margin-right: -23%; } }
+@media screen and (max-width: 1050px) {
+  .fondomenu .menu-fondo {
+    margin-right: -23.9%; } }
+@media screen and (max-width: 1000px) {
+  .fondomenu .menu-fondo {
+    margin-right: -24.5%; } }
 body {
   background: url(../img/fondo.png) no-repeat center center;
   background-position: 0 113px;
