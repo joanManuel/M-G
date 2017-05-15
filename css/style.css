@@ -129,7 +129,7 @@
       position: absolute;
       background: white;
       left: 50%;
-      margin-left: 83px;
+      margin-left: 82px;
       margin-top: -30px;
       text-align: left;
       padding: 0;
@@ -144,7 +144,7 @@
       opacity: 1;
       visibility: visible; }
     .menu .menu-global .subm > li:hover .subm-2,
-    .menu .menu-global .menu > li:hover .subm li {
+    .menu .menu-global .menu > li:hover .subm-2 li {
       opacity: 1;
       visibility: visible; }
     .menu .menu-global .subm > li:hover .subm-3,
