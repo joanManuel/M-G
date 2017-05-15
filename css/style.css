@@ -257,7 +257,6 @@
 body {
   background: url(../img/fondo.png) no-repeat center center;
   background-position: 0 113px;
-  text-align: right;
   width: 100%; }
 
 @media screen and (min-width: 1441px) {
