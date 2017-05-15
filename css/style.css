@@ -114,8 +114,11 @@
         .noticias .box-noticias .btn-noticia-global a:hover {
           background: rgba(255, 92, 67, 0.8); }
 
+.owl-carousel {
+  margin: 22px 0; }
+
 .post-slide {
-  margin: 21px 15px; }
+  margin: 0 10px; }
 
 .post-slide .post-img {
   overflow: hidden; }
