@@ -9,7 +9,7 @@
  
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/ihover.min.css">
-  
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
 <div class="row hero">
@@ -36,26 +36,58 @@
     <img src="img/menu-fondo.png" class="menu-fondo" alt="">
   </div>
 </div> <!-- Fin row hero -->
-<div class="row menu">
+<div class="row container-fluid menu">
  <div class="col-lg-12 columna-menu">
   <header>
     <nav class="menu-global">
      <div class="fondo-nav"></div>
-       <ul>
-       
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Municipalidad</a></li>
-        <li><a href="#">Transparencia</a></li>
-        <li><a href="#">Noticias</a></li>
-        <li><a href="#">Eventos</a></li>
+       <ul class="menu">
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">MUNICIPALIDAD <span class="arrow1"><i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+          <ul class="subm">
+            <li><a href="">QUIENES SOMOS <span class="arrow2"> <i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+              <ul class="subm-2">
+                <li><a href="">MUNICIPALIDAD</a></li>
+                <li><a href="">NUESTRO ALCALDE</a></li>
+              </ul>
+            </li>
+            <li><a href="">CONCEJO MUNICIPAL</a></li>
+            <li><a href="">GERENCIAS <span class="arrow3"> <i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+            <ul class="subm-3">
+              <li><a href="">Gerencia Municipal</a></li>
+              <li><a href="">Gerencia General</a></li>
+              <li><a href="">Gerencia de Rentas</a></li>
+              <li><a href="">Gerencia de Desarrollo Urbano</a></li>
+              <li><a href="">Gerencia de Segurdad Ciudadana</a></li>
+              <li><a href="">Gerencia de Med. Amb. y Obras Publicas</a></li>
+              <li><a href="">Gerencia de Desarrollo Humano</a></li>
+              <li><a href="">Gerencia de Participación Vecinal</a></li>
+              <li><a href="">Gerencia de Planificación Estratégica</a></li>
+              <li><a href="">Gerencia de Pública Municipal</a></li>
+              <li><a href="">Gerencia de Tecnologías de la Información</a></li>
+              <li><a href="">Gerencia de Administración y Finanzas</a></li>
+              <li><a href="">Gerencia de Imagen Institucional</a></li>
+              <li><a href="">Gerencia de Seguridad Vial y Transitabilidad Urbana</a></li>
+              <li><a href="">Gerencia de Asesoría Jurídica</a></li>
+            </ul>
+            </li>
+          </ul>
+        </li>
+        
+        <li><a href="#">TRANSPARENCIA</a></li>
+        <li><a href="#">NOTICIAS</a></li>
+        <li><a href="#">EVENTOS</a></li>
         
       </ul>
     </nav>
   </header>
+  
+  
   </div>
-</div><!-- Fin row menu -->
+</div>
+  <!-- Fin row menu -->
 
-  <div class="row slider">
+  <div class="row container-fluid slider">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -97,7 +129,7 @@
       </a>
     </div>
   </div><!-- fin-slider -->
-  <div class="row noticias">
+  <div class="row container-fluid noticias">
    
     <div class="box-noticias">
       
@@ -215,7 +247,7 @@
     </div>
     
   </div><!-- fin de noticias -->
-  <div class="row prox-event">
+  <div class="row container-fluid prox-event">
    <div class="col-lg-12">
      <div class="box-prox">
       <h1>Próximos eventos</h1>
@@ -224,21 +256,6 @@
       
   </div>
   
-  <div class="row">
-  <div class="col-sm-6">
- 
-    <!-- normal -->
-    <div class="ih-item square effect4"><a href="#">
-        <div class="img"><img src="http://lorempixel/400/400" alt="img"></div>
-        <div class="mask1"></div>
-        <div class="mask2"></div>
-        <div class="info">
-          <h3>Heading here</h3>
-          <p>Description goes here</p>
-        </div></a></div>
-    <!-- end normal -->
- 
-  </div>
   
   <script src="js/modernizr-custom.js"></script>
   

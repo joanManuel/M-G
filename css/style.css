@@ -36,6 +36,7 @@
   .images-menu .primero {
     margin-left: 0; }
 
+/* MENU */
 .menu-fondo {
   margin: 0;
   padding: 0;
@@ -43,6 +44,14 @@
 
 .menu {
   margin-top: 10px; }
+  .menu .arrow1 {
+    padding: 0;
+    margin: 0;
+    margin-left: 10px; }
+  .menu .arrow2 {
+    margin-left: 20px; }
+  .menu .arrow3 {
+    margin-left: 57px; }
   .menu .menu-global {
     float: right;
     margin: 0 8% 0 0;
@@ -57,26 +66,91 @@
       -o-transform: skew(-20deg);
       transform: skew(-20deg);
       z-index: 10; }
-    .menu .menu-global ul {
+    .menu .menu-global .menu {
       width: 650px;
       position: relative;
       z-index: 15;
       list-style: none;
       display: inline-block;
       text-align: center;
-      top: -27px; }
-      .menu .menu-global ul li {
-        display: inline-block;
-        list-style: none; }
-        .menu .menu-global ul li a {
-          padding: 9.5px 20px 9px 20px;
+      top: -44.8px; }
+      .menu .menu-global .menu li {
+        float: left;
+        position: relative; }
+        .menu .menu-global .menu li a {
+          display: block;
+          padding: 7.5px 20px 7.5px 20px;
           color: #494947;
           font-weight: 300; }
-          .menu .menu-global ul li a:link {
+          .menu .menu-global .menu li a:link {
             text-decoration: none; }
-          .menu .menu-global ul li a:hover {
+          .menu .menu-global .menu li a:hover {
             color: white;
             background: #494947; }
+    .menu .menu-global .subm {
+      background: white;
+      position: absolute;
+      width: 165px;
+      left: 50%;
+      margin-left: -40px;
+      z-index: 17;
+      padding: 0;
+      opacity: 0;
+      visibility: hidden; }
+      .menu .menu-global .subm li {
+        width: 100%;
+        position: relative;
+        text-decoration: none;
+        list-style: none;
+        text-align: left;
+        opacity: 0;
+        visibility: hidden;
+        transition: .2s ease transform; }
+        .menu .menu-global .subm li a {
+          position: relative;
+          color: #494947;
+          width: 100%;
+          padding: 10px 0 10px 12px; }
+    .menu .menu-global .subm-2 {
+      position: absolute;
+      background: white;
+      left: 50%;
+      margin-left: 83px;
+      margin-top: -30px;
+      text-align: left;
+      padding: 0;
+      width: 150px;
+      opacity: 0;
+      visibility: hidden; }
+      .menu .menu-global .subm-2 li {
+        opacity: 0;
+        visibility: hidden; }
+    .menu .menu-global .subm-3 {
+      position: absolute;
+      background: white;
+      left: 50%;
+      margin-left: 83px;
+      margin-top: -30px;
+      text-align: left;
+      padding: 0;
+      width: 300px;
+      opacity: 0;
+      visibility: hidden; }
+      .menu .menu-global .subm-3 li {
+        opacity: 0;
+        visibility: hidden; }
+    .menu .menu-global .menu > li:hover .subm,
+    .menu .menu-global .menu > li:hover .subm li {
+      opacity: 1;
+      visibility: visible; }
+    .menu .menu-global .subm > li:hover .subm-2,
+    .menu .menu-global .menu > li:hover .subm li {
+      opacity: 1;
+      visibility: visible; }
+    .menu .menu-global .subm > li:hover .subm-3,
+    .menu .menu-global .menu > li:hover .subm-3 li {
+      opacity: 1;
+      visibility: visible; }
 
 .slider .carousel {
   width: 680px;
