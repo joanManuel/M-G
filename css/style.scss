@@ -1,48 +1,16 @@
-@import "menu";
-@import "slider";
-@import "noticias";
-@import "slider-noticias";
-
-
-@import "media-queries";
-
-//Colores
-
 body{
   background: url(../img/fondo.png)no-repeat center center ;
   background-position: 0 113px;
   width: 100%;
-    //background-attachment: fixed; 
-	//background-size: cover; 
-	//-moz-background-size: cover; 
-	//-webkit-background-size: cover; 
-  overflow: hidden;
 }
-//preload
-#preload{
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 100;
-  background: white;
-  .conPreload{
-    margin-top: 20%;
-    text-align: center;
-    img{
-  }
-  p{
-    
-  }
-    
-    
-    
-  }
-  
-}
-#fondoCarga{
+@import "variables";
+@import "menu";
+@import "slider";
+@import "noticias";
+@import "slider-noticias";
+@import "media-queries";
 
-}
-
+//Colores
 
 @media screen and (min-width: 1441px){
   body{ -webkit-background-size: cover;

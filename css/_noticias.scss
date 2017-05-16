@@ -1,31 +1,30 @@
 .noticias{
-  margin-top: -5px;//20 es el cero
+  margin-top: -40px;//50 es el cero
   
   .box-noticias{
-    //position: relative;
     width: 90%;
     height: 550px;
-	background: rgba(243,247,240,.8);
+	background: $fondo-noticias;
     margin-left: 6%;
     .titulo-noticia{
-      //width: 61px;
 	  height: 24px;
 
-	  font-family: Roboto;
-      font-size: 18px;
-      color: #494947;
-      //padding: 16px 0 0 19px;
+	  font-family: $fuente-noticias;
+      font-weight: $gruesor-letra-titulo-noticia;
+      font-size: $size-letra-titulo-noticia;
+      color: $color-letra-noticia;
     }
     .linea{
       width: 140px;
       height: 2px;
-      border: solid 1.2px #494947;
+      border: solid 1.2px $color-linea-titulo;
       margin-top: -14px;
-      //margin-left: 20px;
     }
     .btn-noticia-global{
   display: block;
-  margin:auto;
+      
+  margin: 25px auto 0 auto;
+      
   width: 210px;
 	height: 36px;
 
@@ -33,13 +32,16 @@
     
   }
   a{
-    padding: 7px 30px;
-    background: rgba(255, 92, 67, 1);
-   
+    padding: 10px 30px;
+    background: $fondo-btn;
+    font-family: $fuente-btn;
+    font-weight: $gruesor-letra-btn;
+    font-size: $size-letra-btn;
+    
     text-decoration: none;
-    color: white;
+    color: $color-letra-btn;
     &:hover{
-      background: rgba(255, 92, 67, 0.8)
+      background: $fondo-hover-btn;
     }
   }
   

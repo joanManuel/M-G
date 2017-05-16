@@ -1,3 +1,8 @@
+body {
+  background: url(../img/fondo.png) no-repeat center center;
+  background-position: 0 113px;
+  width: 100%; }
+
 .hero {
   overflow: hidden; }
   .hero .escudo-grocio {
@@ -16,7 +21,7 @@
         float: right;
         margin-top: 17px;
         padding: 0;
-        font-family: Raleway;
+        font-family: "Raleway", sans-serif;
         font-size: 20px;
         font-weight: 300;
         letter-spacing: -0.9px;
@@ -152,14 +157,16 @@
       opacity: 1;
       visibility: visible; }
 
-.slider .carousel {
+.slider-aviso .carousel {
+  position: relative;
+  margin-top: -40px;
   width: 680px;
   height: 260px;
   margin: auto;
-  top: -20px; }
+  top: -50px; }
 
 .noticias {
-  margin-top: -5px; }
+  margin-top: -40px; }
   .noticias .box-noticias {
     width: 90%;
     height: 550px;
@@ -167,7 +174,8 @@
     margin-left: 6%; }
     .noticias .box-noticias .titulo-noticia {
       height: 24px;
-      font-family: Roboto;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
       font-size: 18px;
       color: #494947; }
     .noticias .box-noticias .linea {
@@ -177,12 +185,15 @@
       margin-top: -14px; }
     .noticias .box-noticias .btn-noticia-global {
       display: block;
-      margin: auto;
+      margin: 25px auto 0 auto;
       width: 210px;
       height: 36px; }
       .noticias .box-noticias .btn-noticia-global a {
-        padding: 7px 30px;
+        padding: 10px 30px;
         background: #ff5c43;
+        font-family: "Raleway", sans-serif;
+        font-weight: 300;
+        font-size: 14px;
         text-decoration: none;
         color: white; }
         .noticias .box-noticias .btn-noticia-global a:hover {
@@ -192,7 +203,8 @@
   margin: 22px 0; }
 
 .post-slide {
-  margin: 0 10px; }
+  margin: 0 10px;
+  font-family: "Roboto", sans-serif; }
 
 .post-slide .post-img {
   overflow: hidden; }
@@ -212,22 +224,23 @@
 
 .post-slide .post-title {
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 0;
   text-transform: capitalize; }
 
 .post-slide .post-title a {
   display: inline-block;
-  color: #808080;
+  color: #494947;
   transition: all 0.3s ease 0s; }
 
 .post-slide .post-title a:hover {
-  color: #3d3030;
+  color: #979797;
   text-decoration: none; }
 
 .post-slide .post-description {
-  font-size: 15px;
+  font-size: 14px;
   color: #676767;
+  font-weight: 300;
   line-height: 24px;
   margin-bottom: 14px; }
 
@@ -237,7 +250,7 @@
   list-style: none; }
 
 .post-slide .post-bar li {
-  color: #676767;
+  color: color-letra-fecha;
   padding: 2px 0; }
 
 .post-slide .post-bar li i {
@@ -246,7 +259,7 @@
 .post-slide .post-bar li a {
   display: inline-block;
   font-size: 12px;
-  color: #808080;
+  color: #676767;
   transition: all 0.3s ease 0s; }
 
 .post-slide .post-bar li a:after {
@@ -263,7 +276,7 @@
   display: inline-block;
   padding: 10px 15px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
   background: #494947;
   border-bottom-right-radius: 10px;
@@ -328,22 +341,6 @@
 @media screen and (max-width: 1000px) {
   .fondomenu .menu-fondo {
     margin-right: -24.5%; } }
-body {
-  background: url(../img/fondo.png) no-repeat center center;
-  background-position: 0 113px;
-  width: 100%;
-  overflow: hidden; }
-
-#preload {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 100;
-  background: white; }
-  #preload .conPreload {
-    margin-top: 20%;
-    text-align: center; }
-
 @media screen and (min-width: 1441px) {
   body {
     -webkit-background-size: cover;
