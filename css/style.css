@@ -331,7 +331,75 @@
 body {
   background: url(../img/fondo.png) no-repeat center center;
   background-position: 0 113px;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
+
+#preload {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: white; }
+  #preload .conPreload {
+    margin-top: 20%;
+    text-align: center; }
+@keyframes seq-preloader {
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+    #preload .conPreload .seq-preloader {
+      background: white;
+      visibility: visible;
+      opacity: 1;
+      position: absolute;
+      z-index: 9999;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+    #preload .conPreload .seq-preloader.seq-preloaded {
+      opacity: 0;
+      visibility: hidden;
+      transition: visibility 0s .5s, opacity .5s; }
+    #preload .conPreload .seq-preload-indicator {
+      overflow: visible;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    #preload .conPreload .seq-preload-circle {
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      fill: #F96D38;
+      opacity: 0;
+      animation: seq-preloader 1.25s infinite; }
+    #preload .conPreload .seq-preload-circle-2 {
+      animation-delay: .15s; }
+    #preload .conPreload .seq-preload-circle-3 {
+      animation-delay: .3s; }
+    #preload .conPreload .seq-preload-indicator-fallback {
+      width: 42px;
+      overflow: visible; }
+    #preload .conPreload .seq-preload-indicator-fallback .seq-preload-circle {
+      width: 8px;
+      height: 8px;
+      background-color: #F96D38;
+      border-radius: 100%;
+      opacity: 1;
+      display: inline-block;
+      vertical-align: middle; }
+    #preload .conPreload .seq-preload-indicator-fallback .seq-preload-circle-2 {
+      margin-left: 3px;
+      margin-right: 3px;
+      width: 12px;
+      height: 12px; }
+    #preload .conPreload .seq-preload-indicator-fallback .seq-preload-circle-3 {
+      width: 16px;
+      height: 16px; }
 
 @media screen and (min-width: 1441px) {
   body {
