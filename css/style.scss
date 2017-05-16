@@ -28,13 +28,7 @@ body{
   .conPreload{
     margin-top: 20%;
     text-align: center;
-    img{
-  }
-  p{
     
-  }
-    // Remember to include browser prefixes when copying this CSS to modify for your own Sequence theme
-
 @keyframes seq-preloader {
   50% {
     opacity: 1;
@@ -49,14 +43,13 @@ body{
   background: white;
   visibility: visible;
   opacity: 1;
-  position: absolute;
+  position: relative;
   z-index: 9999;
   height: 100%;
   width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  //margin: 0 auto;
+  //text-align: center;
+
 }
 
 .seq-preloader.seq-preloaded {

@@ -352,14 +352,10 @@ body {
       background: white;
       visibility: visible;
       opacity: 1;
-      position: absolute;
+      position: relative;
       z-index: 9999;
       height: 100%;
-      width: 100%;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0; }
+      width: 100%; }
     #preload .conPreload .seq-preloader.seq-preloaded {
       opacity: 0;
       visibility: hidden;
