@@ -74,7 +74,7 @@ body {
       width: 650px;
       height: 36.8px;
       position: relative;
-      z-index: 150;
+      z-index: 250;
       list-style: none;
       display: inline-block;
       text-align: center;
