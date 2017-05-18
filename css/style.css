@@ -69,7 +69,7 @@ body {
       -ms-transform: skew(-20deg);
       -o-transform: skew(-20deg);
       transform: skew(-20deg);
-      z-index: 200; }
+      z-index: 250; }
     .menu .menu-global .menu {
       width: 650px;
       height: 36.8px;
