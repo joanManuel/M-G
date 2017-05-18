@@ -150,8 +150,8 @@ body {
     .menu .menu-global .menu > li:hover .subm li {
       opacity: 1;
       visibility: visible; }
-    .menu .menu-global .subm > li:hover .subm-2,
-    .menu .menu-global .menu > li:hover .subm-2 li {
+    .menu .menu-global .menu .subm > li:hover .subm-2,
+    .menu .menu-global .menu .subm > li:hover .subm-2 li {
       opacity: 1;
       visibility: visible; }
     .menu .menu-global .subm > li:hover .subm-3,
