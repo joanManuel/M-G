@@ -173,7 +173,7 @@ body {
     width: 90%;
     height: 550px;
     background: rgba(243, 247, 240, 0.8);
-    margin-left: 6%; }
+    margin-left: 2%; }
     .noticias .box-noticias .titulo-noticia {
       height: 24px;
       font-family: "Roboto", sans-serif;
@@ -381,8 +381,17 @@ body {
       top: -50px; }
       .ocult .contenedor-imagen .hero-trans {
         top: -25px; } }
-.consultas-pedidos .titulo {
-  font-size: 14px; }
+.consultas-pedidos {
+  width: 210px;
+  height: 130px;
+  background: #494947; }
+  .consultas-pedidos .titulo {
+    font-size: 14px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 4px; }
 
 @media screen and (min-width: 1441px) {
   body {
