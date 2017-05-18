@@ -99,13 +99,13 @@
      -o-transform: skew(-20deg);
      transform: skew(-20deg);
     
-      z-index: 10;
+      z-index: 200;
     }
     .menu{
       width: 650px;
       height: 36.8px;
       position: relative;
-      z-index: 15;
+      z-index: 150;
       list-style: none; 
         //line-height: 100%;
       display: inline-block;
