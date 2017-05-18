@@ -1,0 +1,60 @@
+
+.frametrans{
+ margin: 0 auto;
+  width: 100%;
+  height: 1880px;
+  //1880 nuevo sin esconder
+  //
+  //800 antiguo
+  
+  display: block;
+  z-index: 80;
+  background: white;
+  
+  //nuevo
+  position: relative;
+  top: -240px;
+}
+
+.ocult{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  //nuevo 
+  margin-top: -72px;
+  background: white;
+  z-index: 90;
+  .contenedor-imagen{  
+    width: 100%;
+    max-width: 940px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    .hero-trans{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+      width: 100%;
+    top: 10%;
+  }
+  }
+  
+  
+}
+@media screen and (max-width: 1200px){
+  
+  
+  .ocult{
+ height: 250px;
+  .contenedor-imagen{  
+   top: -50px;
+    .hero-trans{
+    top: -25px;
+  }
+    
+  }
+  
+  
+}
+}
