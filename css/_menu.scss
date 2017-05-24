@@ -1,239 +1,144 @@
-.hero{
-  //position: relative;
-  overflow: hidden;
-  .escudo-grocio{
-    display: inline-block;
-    .g-logo{
-    margin-left: 52%;
-      .logo{
-        margin-top: 13px;
-
-        img{
-          float: left;
-        }
+body{
+        background: url(../img/fondo-movil-320.png) no-repeat ;
+        background-size: auto auto;
+    
       }
-      .titulo{
-        width: 210px;
-        height: 48px;
-        margin-left: 50px;
-      }
-      h1{
-
-        float: right;
-        margin-top: 17px;
-        padding: 0;
-        font-family: $fuente-logo;
-        font-size: $size-logo;
-        font-weight: $gruesor-logo;
-        
-        color: $color-letra-logo;
-      }
-    }
-  }
-}
-
-.images-menu{
-  padding: 0;
-  margin: 0;
-  display: flex;
-    align-items:flex-end;
-  justify-content: flex-end;
-  .heros{
-    //align-items: center;
-    margin-right: 1.5%;
-    
-    img{
-      margin: 21px 0 0 -22px;
-      padding: 0;
-    
-    }
-  }
-  
-  .primero{
-    margin-left: 0;
-  }
-  .quinto{
-    
-  }
-  
-  
-}
-
-/* MENU */
-.menu-fondo{
-    margin: 0;
-    padding: 0;
-    float: right;
-  }
-
-    
-.menu{
-  .arrow1{
-    //position: relative;
-    padding: 0;
-    margin: 0;
-    margin-left: 10px;
-  }
-  .arrow2{
-     margin-left: 20px;
-  }
-  .arrow3{
-    margin-left: 57px;
-  }
-  
-  .columna-menu{
-    //padding: 0;
-  }
-  margin-top: 10px;
-  .menu-global{
-     float: right;
-      margin: 0 8% 0 0;
-    padding: 0;
-    .fondo-nav{
-    width: 650px; 
-     height: 35px; 
-     background: #fff;
-     -webkit-transform: skew(-20deg);
-     -moz-transform: skew(-20deg);
-     -ms-transform: skew(-20deg);
-     -o-transform: skew(-20deg);
-     transform: skew(-20deg);
-    
-      z-index: 250;
-    }
-    .menu{
-      width: 650px;
-      height: 36.8px;
-      position: relative;
-      z-index: 250;
-      list-style: none; 
-        //line-height: 100%;
-      display: inline-block;
-      text-align: center;
-      top: -44.7px;
-      font-family: $tipo-letra-menu;
-      font-size: $size-letra-menu;
-      li{
-        float: left;
-        position: relative;
-        
-         
-        a{
-          display: block;
-          
-          padding: 8px 20px 8.2px 20px;
-          color: $color-letra-menu;
-          font-weight: $gruesor-letra-menu;
-          &:link{
-            text-decoration: none;
-          }
-          &:hover{
-            color: $color-hover-letra;
-            background: $fondo-hover-menu;
-          }
-        }
-      }
-    }
-   
-    .subm{
-    background: white;
-      position: absolute;
+ .logo{
+      //text-align: center;
       //display: block;
-      width: 165px;
-      left: 50%;
-      margin-left: -40px;
-      z-index: 17;
-      padding: 0;
-      //margin-top: 2px;
-      
-      opacity: 0;
-      visibility: hidden;
-     
-    li{
-      width: 100%;
-      position: relative;
-      //overflow: hidden;
-      text-decoration: none;
-      list-style: none;
-      text-align: left;
-      
-      opacity: 0;
-      visibility: hidden;
-      
-      transition: .2s ease transform;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 0;
+    margin: 15px auto 15px auto;
+   // margin: 0 auto;
+    width: 100%;
+    height: 155px;
+    
    
-      a{
+    .escudo{
         position: relative;
-        color: $color-letra-menu;
-        width: 100%;
-        padding: 10px 0 10px 12px;
+        top: 20px;
+      margin-top: 10px;
+      text-align: center;
+      width: 100%;
         
-       // line-height: 100%;
-      
+      img{
+        width: 35px;
+        height: auto;
+        margin: auto;
       }
+    }
+    .tituloLogo{
+      font-size: 18px;
+        font-family: $tipo-letra-menu;
+        
+      text-align: center;
+      margin: 15px auto 0 auto;
+      padding: 0;
+      width: 80%;
+        position: relative;
+        top: 20px;
     }
   }
-    .subm-2{
-      position: absolute;
-      background: white;
-      left: 50%;
-      margin-left: 83px;
-      margin-top: -30px;
-       text-align: left;
-      padding: 0;
-      width: 150px;
-      
-      opacity: 0;
-      visibility: hidden;
-      li{
-       opacity: 0;
-      visibility: hidden;
-        a{
-          
-        }
-      }
-    }
-    .subm-3{
-      position: absolute;
-      background: white;
-     left: 50%;
-      margin-left: 83px;
-      margin-top: -30px;
-       text-align: left;
-      padding: 0;
-      width: 300px;
-      
-      opacity: 0;
-      visibility: hidden;
-      li{
-       opacity: 0;
-      visibility: hidden;
-        a{
-          
-        }
-      }
-    }
-    
-.menu > li:hover .subm,
-.menu > li:hover .subm li
-    {
-  opacity: 1;
-  visibility: visible;
-}	
-    
-   .menu .subm > li:hover .subm-2,
-   .menu .subm > li:hover .subm-2 li{
-      opacity: 1;
-  visibility: visible;
-    }
-   
-    
-    .subm > li:hover .subm-3,
-    .menu > li:hover .subm-3 li{
-      opacity: 1;
-  visibility: visible;
-    }
+  .heroMenu{
+    display: none;
   }
-  
-}
-
+    header{
+        .mobile-menu{
+            margin-top: 0;
+            top: 0;
+            a{
+                height: 50px;
+                background-color: $fondo-movil-menu;
+                width: 100%;
+                color: $color-letra-menu;
+                display: block;
+                text-align: center;
+                line-height: 50px;
+                text-decoration: none;
+                font-family: $fuente-logo;
+                font-size: $size-letra-movil-menu;
+                font-weight: $gruesor-letra-movil-menu;
+                
+                i{
+                    color: $color-letra-menu;
+                }
+            }
+            .mobile{
+                
+            }
+        }
+        .navegacion{
+            display: none;
+               
+            nav{
+                .fa-angle-right{
+                    display: none;
+                }
+                i{
+                    margin-left: 10px;
+                }
+                ul{
+                    
+                    background: white;
+                 
+                    list-style: none;
+                       display: table;
+                       margin: 0;
+                       padding: 0;
+                       width: 100%;
+                   
+                    >li{
+                        background: $fondo-alternativo;
+                        
+                    
+                        a{
+                          font-family: $tipo-letra-menu;
+                        width: 100%;
+                            
+                        text-align: left;
+                        
+                        }
+                        
+                    }
+                    li{
+                        
+                        a{
+                            color: $color-letra-menu;
+                            //text-align: left;
+                            padding: 10px 0 10px 10px;//40PX
+                            display: block;
+                            text-decoration: none;
+                           
+                        }
+                        //float: left;
+                        //display: block;
+                        ul{
+                            
+                            display: none; //desactivar
+                            top: 0;
+                            >li{
+                                background: #dde1db;
+                            }
+                            li{
+                                a{
+                                    padding-left: 30px;
+                                }
+                                ul{
+                                    display: none; //desactivar
+                                    >li{
+                                        background: #c7cbc5;
+                                    }
+                                    li{
+                                        a{
+                                            padding-left: 60px;
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }    
