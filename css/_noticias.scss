@@ -1,5 +1,5 @@
 .noticias{
-  margin-top: -40px;//50 es el cero
+  margin-top: 0;//50 es el cero
   
   .box-noticias{
     width: 90%;
@@ -8,7 +8,6 @@
     margin-left: 2%;
     .titulo-noticia{
 	  height: 24px;
-
 	  font-family: $fuente-noticias;
       font-weight: $gruesor-letra-titulo-noticia;
       font-size: $size-letra-titulo-noticia;

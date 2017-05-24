@@ -10,6 +10,33 @@
   width: 210px;
   height: 130px;
   background: #494947;
-  
+}
+.sec-consul{
+  text-align: center;
+  img{
+    margin-top: -52px;
+  }
   
 }
+figure{
+  margin: 0 auto;
+  width: 940px;
+  img{
+    
+  }
+}
+.content{
+  background: white;
+  height: 350px;
+  figure{
+    margin-top: 20px;
+    img{
+    
+    }
+  }
+  h1{
+    color: $color-letra-logo;
+    font-family: $fuente-logo;
+    font-size: 18px;
+  }
+  }
