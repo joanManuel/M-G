@@ -1,13 +1,21 @@
 /* INDEX */
-.consultas-pedidos{
+
+/* CONSULTAS */
+.consultas{
+    display: block;
+    .consultas-pedidos{
+        margin: 0 auto;
     color: white;
+    
   .titulo{
     font-size: 14px;
     font-family: $tipo-letra-menu;
     text-align: center;
     position: relative;
     top: 4px;
-  }
+    }ul{
+        padding: 0;
+        margin: 0;
     li{
         list-style: none;
         width: 90%;
@@ -22,10 +30,14 @@
             }
         }
     }
+}
   width: 210px;
   height: 130px;
   background: #494947;
+}   
 }
+
+
 .sec-consul{
   text-align: center;
   img{
@@ -144,3 +156,36 @@ figure{
     } 
 }
 
+/* EDUCACION */
+.educacion{
+    margin: 0 auto;
+     width: 210px;
+  height: 130px;
+  background: #494947;
+    h1{
+    font-size: 14px;
+    font-family: $tipo-letra-menu;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 4px; 
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+    li{
+        list-style: none;
+        width: 90%;
+        display: block;
+        float: right;
+        a{
+            font-family: $tipo-letra-menu;
+            font-size: 12px;
+        color: white;
+            &:link{
+                text-decoration: none;
+            }
+        }
+    }
+}
+}
