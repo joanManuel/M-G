@@ -20,10 +20,41 @@ $(document).ready(function(){
   
 })
 
-//slider noticias
+//slider noticias - #news-slider
+$(document).ready(function(){
+$('#news-slider').slick({
+  centerMode: true,
+  centerPadding: '20px',
+  slidesToShow: 3,
+     slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '20px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '20px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+});
 
 
- 
+/*
+
 $(document).ready(function() {
     $("#news-slider").owlCarousel({
         items:4,
@@ -35,3 +66,4 @@ $(document).ready(function() {
         autoPlay:true
     });
 });
+*/
