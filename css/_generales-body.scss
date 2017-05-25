@@ -1,0 +1,117 @@
+
+
+/* SECCIÓN NOTICIAS*/
+.owl-carousel{
+  margin: 0 0 10px 0;
+    overflow: hidden;
+}
+.post-slide{
+    margin: 10px 10px;
+  
+  font-family: $fuente-slider;
+}
+.post-slide .post-img{
+    overflow: hidden;
+}
+.post-slide .post-img img{
+   position: relative;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: all 1s ease-in-out 0s;
+    z-index: 92;
+}
+.post-slide:hover{
+  //box-shadow: 2px #000; 
+}
+.post-slide:hover .post-img img{
+    transform: scale(1.08);
+}
+.post-slide .post-content{
+    position: relative;
+    background:  rgba(243,247,240,.8);
+   padding: 15px;
+    top: 0;
+    
+    //top: -130px;
+}
+.post-slide .post-title{
+    font-size: 17px;
+    font-weight: $gruesor-titulo-slider;
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    max-width: 235px;
+    
+    position: relative;
+    z-index: 91;
+}
+.post-slide .post-title a{
+    display: inline-block;
+    color: $color-letra-noticia;
+    transition: all 0.3s ease 0s;
+}
+.post-slide .post-title a:hover{
+    color: $hover-titulo-slider-noticias;
+    text-decoration: none;
+}
+.post-slide .post-description{
+    font-size:$size-letra-descripcion;
+    color: $color-letra-slider-noticias;
+  font-weight: $gruesor-descripcion;
+    line-height: 24px;
+    margin-bottom: 14px;
+    
+}
+.efectoNoticias{
+
+   
+}
+.post-slide .post-bar{
+    //fecha y categoria
+    padding: 0;
+    margin-bottom: 15px;
+    list-style: none;
+    position: relative;
+    
+}
+.post-slide .post-bar li{
+    color: color-letra-fecha;
+    padding: 2px 0;
+}
+.post-slide .post-bar li i{
+    margin-right: 5px;
+}
+.post-slide .post-bar li a{
+    display: inline-block;
+    font-size: 12px;
+    color: $color-letra-categoria;
+    transition: all 0.3s ease 0s;
+}
+.post-slide .post-bar li a:after{
+    content: ",";
+}
+.post-slide .post-bar li a:last-child:after{
+    content: "";
+}
+.post-slide .post-bar li a:hover{
+    color: $color-hover-categoria;
+    text-decoration: none;
+}
+.post-slide .read-more{
+    display: inline-block;
+    padding: 5px 15px;
+    margin-top: 5px;
+    font-size: $size-letra-btn-leerMas;
+    font-weight: $gruesor-btn-slider;
+    color: $color-letra-btn-slider;
+    background: $fondo-btn-slider;
+    border-bottom-right-radius: 10px;
+    text-transform: capitalize;
+    transition: all 0.30s linear;
+}
+.post-slide .read-more:hover{
+    background: $hover-btn-slider;
+    text-decoration: none;
+}
+

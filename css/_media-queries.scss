@@ -30,14 +30,7 @@
             }
         }
     }
-    .efectoNoticias{
-                       position: relative;
-                        top: -50px;
-                        z-index: 80;
-                        opacity: 0;
-                        display: none;
-                        transition-duration: 0.4s;
-                }
+    
     body{
         background: url(../img/fondo-movil-768.png) no-repeat;
     }
@@ -374,13 +367,37 @@ header
         padding: 10px;
         z-index: 90;
         top: 0;
-        height: 110px;
+        height: 140px;
+            
         }
         .efectoNoticias{
-             top: 0;
-            display: none;
-            opacity: 0;
+                       position: relative;
+                        top: -10px;
+                        z-index: 80;
+                        opacity: 0;
+                        display: none;
+                        margin-top: 2px;
+                        transition-duration: 0.4s;
+                }
+        .post-description{
+            margin-top: 15px;
+           margin-bottom: 10px; 
+            line-height: 20px;
+        }
+        .post-bar{
+            //top: 20px;
+            margin-top: 10px;
+             margin-bottom: 0; 
+            li{
+                margin-top: 5px;
+            }
+        }
+        .read-more{
             
+            position: absolute;
+            
+            bottom: 4%;
+           
         }
     }
     

@@ -13,21 +13,30 @@ $(document).ready(function(){
     
     if(ancho >= point){
         $('.post-slide').mouseenter(function(){
+        
         $('.post-content',this).animate({
-          height: '280px'
+          height: '100%'
         });
+        $('.post-content', this).css({"maxheight":"290px"});
+        
         $('.efectoNoticias', this).css({"display":"block"});
+        
+        $('.read-more',this).css({"position":"relative","margin-bottom":"2%"});    
+        
         $('.efectoNoticias', this).animate({
             opacity:'1'      
-    });
+        });
     }).mouseleave(function(){
-        $('.efectoNoticias', this).css({"display":"none","opacity":"0"});
+        
+        
         $('.efectoNoticias', this).animate({
              opacity:'0' 
         });
         $('.post-content',this).animate({
-          height: '110px'
+          height: '140px'
         });
+            $('.efectoNoticias', this).css({"display":"none","opacity":"0"});
+            $('.read-more',this).css({"position":"absolute","bottom":"4%"}); 
     });
     
     }
