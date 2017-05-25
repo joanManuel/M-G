@@ -520,22 +520,23 @@ header .navegacion {
   width: 100%;
   height: 1880px;
   display: block;
+  position: relative;
   z-index: 80;
   background: white;
-  position: relative;
-  top: -240px; }
+  top: -100px; }
 
 .ocult {
   position: relative;
   width: 100%;
-  height: 250px;
-  margin-top: -72px;
-  background: white;
+  height: 110px;
+  padding: 0;
+  margin-top: 0;
+  background: red;
   z-index: 90; }
   .ocult .contenedor-imagen {
     width: 100%;
     max-width: 940px;
-    height: 200px;
+    height: auto;
     display: block;
     margin: 0 auto;
     margin-top: 2%; }
@@ -544,26 +545,68 @@ header .navegacion {
       position: relative;
       margin: 0 auto;
       width: 100%;
-      top: 10%; }
+      top: 20px; }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 768px) {
+  .frametrans {
+    margin: 0 auto;
+    width: 100%;
+    height: 1880px;
+    display: block;
+    z-index: 80;
+    background: white;
+    position: relative;
+    top: -240px; }
+
   .ocult {
-    height: 250px; }
+    position: relative;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    margin-top: 0;
+    background: white;
+    z-index: 90; }
     .ocult .contenedor-imagen {
-      top: -50px; }
+      width: 100%;
+      max-width: 940px;
+      height: 200px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 2%; }
       .ocult .contenedor-imagen .hero-trans {
-        top: -25px; } }
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        top: 20px; } }
+@media screen and (max-width: 1200px) {
+  .ocult .contenedor-imagen {
+    top: 0; }
+    .ocult .contenedor-imagen .hero-trans {
+      top: 0; } }
+/* INDEX */
 .consultas-pedidos {
+  color: white;
   width: 210px;
   height: 130px;
   background: #494947; }
   .consultas-pedidos .titulo {
     font-size: 14px;
-    color: white;
     font-family: "Raleway", sans-serif;
     text-align: center;
     position: relative;
     top: 4px; }
+  .consultas-pedidos li {
+    list-style: none;
+    width: 90%;
+    display: block;
+    float: right; }
+    .consultas-pedidos li a {
+      font-family: "Raleway", sans-serif;
+      font-size: 12px;
+      color: white; }
+      .consultas-pedidos li a:link {
+        text-decoration: none; }
 
 .sec-consul {
   text-align: center; }
@@ -577,9 +620,10 @@ figure {
 /* PAGINA TRAMITE DOCUMENTARIO */
 .content {
   top: 0;
-  margin: 10px 0;
+  margin: 10px 0 0 0;
   background: white;
-  height: auto; }
+  height: auto;
+  max-height: 520px; }
   .content figure {
     margin-top: 10px;
     width: 100%;
@@ -590,13 +634,17 @@ figure {
   .content h1 {
     color: #494947;
     font-family: "Raleway", sans-serif;
-    font-size: 18px; }
+    font-size: 18px;
+    margin-left: 20px; }
   .content .formulario .tipo {
-    margin-left: 40px; }
+    display: block;
+    text-align: center; }
   .content .formulario .anio {
-    margin-left: 40px; }
+    display: block;
+    text-align: center; }
   .content .formulario .nro {
-    margin-left: 40px; }
+    display: block;
+    text-align: center; }
   .content .formulario form h3 {
     font-family: "Raleway", sans-serif;
     display: inline-block;
@@ -620,11 +668,10 @@ figure {
     text-align: center;
     font-size: 16px; }
     .content .formulario form input:focus {
-      outline: none;
-      outline-color: none; }
+      outline: none; }
   .content .formulario form .boton {
     width: 120px;
-    background: rgba(255, 92, 67, 0.8);
+    background: #ff5c43;
     font-family: "Raleway", sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -633,6 +680,18 @@ figure {
     border-radius: 1px;
     cursor: pointer;
     padding: 10px 5px;
-    margin: 10px 5px; }
+    display: block;
+    margin: 30px auto 20px auto; }
+    .content .formulario form .boton:hover {
+      background: rgba(255, 92, 67, 0.8); }
+
+.busqueda {
+  margin: 0;
+  padding: 0;
+  height: 300px;
+  background: green; }
+  .busqueda h1 {
+    margin-top: 0;
+    background: red; }
 
 /*# sourceMappingURL=style.css.map */
