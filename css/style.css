@@ -585,28 +585,35 @@ header .navegacion {
     .ocult .contenedor-imagen .hero-trans {
       top: 0; } }
 /* INDEX */
-.consultas-pedidos {
-  color: white;
-  width: 210px;
-  height: 130px;
-  background: #494947; }
-  .consultas-pedidos .titulo {
-    font-size: 14px;
-    font-family: "Raleway", sans-serif;
-    text-align: center;
-    position: relative;
-    top: 4px; }
-  .consultas-pedidos li {
-    list-style: none;
-    width: 90%;
-    display: block;
-    float: right; }
-    .consultas-pedidos li a {
+/* CONSULTAS */
+.consultas {
+  display: block; }
+  .consultas .consultas-pedidos {
+    margin: 0 auto;
+    color: white;
+    width: 210px;
+    height: 130px;
+    background: #494947; }
+    .consultas .consultas-pedidos .titulo {
+      font-size: 14px;
       font-family: "Raleway", sans-serif;
-      font-size: 12px;
-      color: white; }
-      .consultas-pedidos li a:link {
-        text-decoration: none; }
+      text-align: center;
+      position: relative;
+      top: 4px; }
+    .consultas .consultas-pedidos ul {
+      padding: 0;
+      margin: 0; }
+      .consultas .consultas-pedidos ul li {
+        list-style: none;
+        width: 90%;
+        display: block;
+        float: right; }
+        .consultas .consultas-pedidos ul li a {
+          font-family: "Raleway", sans-serif;
+          font-size: 12px;
+          color: white; }
+          .consultas .consultas-pedidos ul li a:link {
+            text-decoration: none; }
 
 .sec-consul {
   text-align: center; }
@@ -693,5 +700,33 @@ figure {
   .busqueda h1 {
     margin-top: 0;
     background: red; }
+
+/* EDUCACION */
+.educacion {
+  margin: 0 auto;
+  width: 210px;
+  height: 130px;
+  background: #494947; }
+  .educacion h1 {
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 4px; }
+  .educacion ul {
+    padding: 0;
+    margin: 0; }
+    .educacion ul li {
+      list-style: none;
+      width: 90%;
+      display: block;
+      float: right; }
+      .educacion ul li a {
+        font-family: "Raleway", sans-serif;
+        font-size: 12px;
+        color: white; }
+        .educacion ul li a:link {
+          text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
