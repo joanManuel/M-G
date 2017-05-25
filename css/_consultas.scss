@@ -25,13 +25,19 @@ figure{
     
   }
 }
+/* PAGINA TRAMITE DOCUMENTARIO */
 .content{
+    top: 0;
+    margin: 10px 0;
   background: white;
-  height: 350px;
+  height: auto;
   figure{
-    margin-top: 20px;
+    margin-top: 10px;
+      width: 100%;
+      max-width: 940px;
+      height: auto;
     img{
-    
+    width: 100%;
     }
   }
   h1{
@@ -39,4 +45,66 @@ figure{
     font-family: $fuente-logo;
     font-size: 18px;
   }
-  }
+    .formulario{
+        .tipo{
+            margin-left: 40px;
+        }
+        .anio{
+          margin-left: 40px;
+        }
+        .nro{
+            margin-left: 40px;
+        }
+       
+    form{
+       
+        h3{
+            font-family: $fuente-logo;
+            display: inline-block;
+            
+            font-size: 18px;
+            padding: 0;
+        }
+        select{
+            background: transparent;
+           border: 1px solid $fondo-hover-btn;
+         
+           font-size: 14px;
+           height: 30px;
+           padding: 5px;
+           width: 180px;
+            margin-left: 20px;
+            &:focus{
+                outline-color: none;
+            }
+        }
+        input{
+            margin-left: 10px;
+            border: none;
+            border-bottom: 2px solid red;
+            width: 150px;
+            text-align: center;
+            
+            font-size: 16px;
+            &:focus{
+                outline: none;
+                outline-color: none;
+            }
+        }
+        .boton{
+            width: 120px;
+            background: $fondo-hover-btn;
+            font-family: $fuente-logo;
+            font-weight: 300;
+            font-size: 16px;
+            color: white;
+            border: 0 none;
+            border-radius: 1px;
+            cursor: pointer;
+            padding: 10px 5px;
+            margin: 10px 5px;
+        }
+    }
+}
+}
+    

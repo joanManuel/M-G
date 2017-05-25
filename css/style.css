@@ -574,14 +574,65 @@ figure {
   margin: 0 auto;
   width: 940px; }
 
+/* PAGINA TRAMITE DOCUMENTARIO */
 .content {
+  top: 0;
+  margin: 10px 0;
   background: white;
-  height: 350px; }
+  height: auto; }
   .content figure {
-    margin-top: 20px; }
+    margin-top: 10px;
+    width: 100%;
+    max-width: 940px;
+    height: auto; }
+    .content figure img {
+      width: 100%; }
   .content h1 {
     color: #494947;
     font-family: "Raleway", sans-serif;
     font-size: 18px; }
+  .content .formulario .tipo {
+    margin-left: 40px; }
+  .content .formulario .anio {
+    margin-left: 40px; }
+  .content .formulario .nro {
+    margin-left: 40px; }
+  .content .formulario form h3 {
+    font-family: "Raleway", sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    padding: 0; }
+  .content .formulario form select {
+    background: transparent;
+    border: 1px solid rgba(255, 92, 67, 0.8);
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 180px;
+    margin-left: 20px; }
+    .content .formulario form select:focus {
+      outline-color: none; }
+  .content .formulario form input {
+    margin-left: 10px;
+    border: none;
+    border-bottom: 2px solid red;
+    width: 150px;
+    text-align: center;
+    font-size: 16px; }
+    .content .formulario form input:focus {
+      outline: none;
+      outline-color: none; }
+  .content .formulario form .boton {
+    width: 120px;
+    background: rgba(255, 92, 67, 0.8);
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px; }
 
 /*# sourceMappingURL=style.css.map */
