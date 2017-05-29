@@ -457,7 +457,13 @@ header .navegacion {
     .heroMenu .grupoImages .itm5 {
       display: inline-block; }
   .heroMenu .fndMenu img {
-    margin-right: -19.5%; } }
+    margin-right: -19.5%; }
+
+  .box-noticias {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 80px; } }
 @media only screen and (min-width: 1440px) {
   body {
     -webkit-background-size: cover;
