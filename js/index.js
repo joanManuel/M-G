@@ -4,9 +4,23 @@
 ,"opacity":"1","top":"0"
 
 */
-//MENU MOVIL
+//EFECTO FONDO
+$(window).scroll(function(){
+
+	var posY = window.pageYOffset;
+    var top = '0px ';
+    var ancho1 = $(window).width(); 
+    var point2 = 1440;
+    
+ if(ancho1 >= point2){
+     $("body").css({"background-position": top.concat(113 - (posY/1) + "px")});
+ }
+      
+   
+});
 
 
+//EFECTO NOTICIAS
 $(document).ready(function(){
     var ancho = $(window).width();    
     var point = 992;

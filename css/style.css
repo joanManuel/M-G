@@ -224,7 +224,7 @@ header .navegacion {
 @media only screen and (min-width: 768px) {
   body {
     background: url(../img/fondo.png) no-repeat;
-    background-position: 0 113px;
+    background-position: 0px 113px;
     /*
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -461,18 +461,20 @@ header .navegacion {
 
   .box-noticias {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1120px;
     margin: 0 auto;
     margin-left: 80px; } }
 @media only screen and (min-width: 1440px) {
   body {
+    background-attachment: fixed;
+    background-position: 0px 113px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
 
   .logo {
-    margin-left: 22%; }
+    margin-left: 42%; }
 
   .heroMenu .grupoImages {
     width: 950px; }

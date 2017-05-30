@@ -56,7 +56,7 @@
 @media only screen and (min-width:768px){
     body{
         background: url(../img/fondo.png) no-repeat;
-        background-position: 0 113px;
+        background-position: 0px 113px;
         /*
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -69,12 +69,12 @@
         display: none;
     }
     .logo{
-  background: none;
-  width: 290px;
-  margin-left: 32%;
-  margin-top: 0;
+      background: none;
+      width: 290px;
+      margin-left: 32%;
+      margin-top: 0;
         margin-bottom: 0;
-        
+
         height: 66px;
   .escudo{
     width: 46px;
@@ -430,7 +430,7 @@ header
     }
     .box-noticias{
         width: 100%;
-        max-width: 1200px;
+        max-width: 1120px;
         margin: 0 auto;
         margin-left: 80px;
     }
@@ -440,13 +440,16 @@ header
         //background-position: top;
         //background-position: center;
         
+        background-attachment: fixed;
+        background-position: 0px 113px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        //width: 100%;
     }
     .logo{
-        margin-left: 22%;
+        margin-left: 42%;
         .escudo{
             
         }
@@ -456,6 +459,7 @@ header
         }
     .heroMenu{
         .grupoImages{
+            
             width: 950px;
             img{
                 
