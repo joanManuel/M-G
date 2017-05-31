@@ -447,7 +447,8 @@ SECCIÓN NOTICIAS */
             text-align: center; }
             header .navegacion nav ul li a:hover {
               background: #494947;
-              color: white; }
+              color: white;
+              -webkit-transition-duration: .3s; }
           header .navegacion nav ul li .subm {
             position: absolute;
             display: none;
@@ -464,14 +465,19 @@ SECCIÓN NOTICIAS */
                 text-align: left; }
                 header .navegacion nav ul li .subm > li a:hover {
                   background: #494947;
-                  color: white; }
+                  color: white;
+                  -webkit-transition-duration: .3s; }
               header .navegacion nav ul li .subm > li:hover .subm-2 {
+                -webkit-transition-duration: .3s;
                 display: block; }
               header .navegacion nav ul li .subm > li:hover .subm-2 li {
+                -webkit-transition-duration: .3s;
                 display: block; }
               header .navegacion nav ul li .subm > li:hover .subm-3 {
+                -webkit-transition-duration: .3s;
                 display: block; }
               header .navegacion nav ul li .subm > li:hover .subm-3 li {
+                -webkit-transition-duration: .3s;
                 display: block; }
             header .navegacion nav ul li .subm li {
               background: white;
