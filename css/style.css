@@ -519,7 +519,11 @@ SECCIÓN NOTICIAS */
       margin: 0 auto;
       width: 100%;
       max-width: 640px;
-      height: 340px; } }
+      height: 340px; }
+
+  /* SECCIÓN DE PRÓXIMOS EVENTOS */
+  .owl-carousel-avisos {
+    width: 90%; } }
 @media only screen and (min-width: 992px) {
   .logo {
     margin-left: 50%; }
@@ -682,7 +686,7 @@ Los cambios están en las medias queries.
 
 /* SLIDER */
 .owl-carousel-avisos {
-  margin: 0 0 10px 0;
+  margin: 0 auto 10px auto;
   overflow: hidden; }
   .owl-carousel-avisos .post-evento-slide {
     margin: 10px 10px;
