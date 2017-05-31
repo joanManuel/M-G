@@ -916,32 +916,42 @@ Los cambios están en las medias queries.
 /* INDEX */
 /* CONSULTAS */
 .consultas {
-  display: block; }
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: flex-start;
+  height: 100%; }
   .consultas .consultas-pedidos {
-    margin: 0 auto;
+    margin: 5px auto;
     color: white;
+    height: 140px;
     width: 210px;
-    height: 130px;
     background: #494947; }
     .consultas .consultas-pedidos .titulo {
       font-size: 14px;
       font-family: "Raleway", sans-serif;
       text-align: center;
       position: relative;
-      top: 4px; }
-    .consultas .consultas-pedidos ul {
-      padding: 0;
-      margin: 0; }
-      .consultas .consultas-pedidos ul li {
+      margin-top: 10px;
+      margin-bottom: 5px; }
+    .consultas .consultas-pedidos .item {
+      margin-top: 0;
+      margin-bottom: 10px; }
+      .consultas .consultas-pedidos .item li {
         list-style: none;
-        width: 90%;
+        width: 95%;
         display: block;
-        float: right; }
-        .consultas .consultas-pedidos ul li a {
+        float: right;
+        top: 0;
+        margin-top: 0; }
+        .consultas .consultas-pedidos .item li a {
           font-family: "Raleway", sans-serif;
           font-size: 12px;
           color: white; }
-          .consultas .consultas-pedidos ul li a:link {
+          .consultas .consultas-pedidos .item li a:link {
             text-decoration: none; }
 
 .sec-consul {
@@ -952,6 +962,37 @@ Los cambios están en las medias queries.
 figure {
   margin: 0 auto;
   width: 940px; }
+
+/* EDUCACION */
+.consultas {
+  height: 100%; }
+  .consultas .educacion {
+    margin: 10px auto;
+    width: 210px;
+    background: #494947; }
+    .consultas .educacion h1 {
+      font-size: 14px;
+      font-family: "Raleway", sans-serif;
+      color: white;
+      text-align: center;
+      position: relative;
+      top: 4px;
+      margin-top: 10px; }
+    .consultas .educacion .item2 {
+      height: 90px; }
+      .consultas .educacion .item2 li {
+        list-style: none;
+        width: 95%;
+        display: block;
+        float: right;
+        top: 0;
+        margin-top: 0; }
+        .consultas .educacion .item2 li a {
+          font-family: "Raleway", sans-serif;
+          font-size: 12px;
+          color: white; }
+          .consultas .educacion .item2 li a:link {
+            text-decoration: none; }
 
 /* PAGINA TRAMITE DOCUMENTARIO */
 .content {
