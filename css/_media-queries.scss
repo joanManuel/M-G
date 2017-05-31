@@ -1,9 +1,19 @@
 @media only screen and (min-width:320px){
    body{
         background: url(../img/fondo-movil-480.png) no-repeat;
-      }
+    }
+    .slider-aviso{
+        width: 100%;
+        height: auto;
+    .carousel, .carousel-inner > .item > img {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 420px;
+        height: 280px;
+        }
+   
+    }
 }
-    
 @media only screen and (min-width:480px){
      body{
         background: url(../img/fondo-movil-640.png) no-repeat;
@@ -51,18 +61,24 @@
             
         }
     }
+    
+    .slider-aviso{
+        width: 100%;
+        height: auto;
+    .carousel, .carousel-inner > .item > img {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 620px;
+        height: 360px;
+        }
+   
+    }
 }
 
 @media only screen and (min-width:768px){
     body{
         background: url(../img/fondo.png) no-repeat;
         background-position: 0px 113px;
-        /*
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        */
     }
     
     .mobile-menu{
@@ -326,7 +342,18 @@ header
   
 
 }
-    
+.slider-aviso{
+    margin-top: 10px;
+    height: 340px;
+    .carousel, .carousel-inner > .item > img {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 640px;
+        height: 340px;
+        }
+    .carousel{
+    }
+}    
 }
 @media only screen and (min-width:992px){
     .logo{
@@ -354,6 +381,19 @@ header
             }
         }
     }
+    .slider-aviso{
+        width: 100%;
+        height: auto;
+    .carousel, .carousel-inner > .item > img {
+       
+        width: 100%;
+        max-width: 640px;
+        height: 400px;
+        }
+   
+    }
+    
+    
     //MENU
     
     
@@ -434,6 +474,17 @@ header
         margin: 0 auto;
         margin-left: 80px;
     }
+    .slider-aviso{
+        width: 100%;
+        height: auto;
+    .carousel, .carousel-inner > .item > img {
+       
+        width: 100%;
+        max-width: 840px;
+        height: 480px;
+        }
+   
+    }
 }
 @media only screen and (min-width:1440px){
     body{
@@ -474,5 +525,10 @@ header
                 margin-right: 0;
             }
         }
+    }
+     .box-noticias{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 }

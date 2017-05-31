@@ -15,8 +15,6 @@ $(window).scroll(function(){
  if(ancho1 >= point2){
      $("body").css({"background-position": top.concat(113 - (posY/1) + "px")});
  }
-      
-   
 });
 
 
