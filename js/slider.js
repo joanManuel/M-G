@@ -1,5 +1,5 @@
 
-//SLIDER
+//SLIDER-AVISOS
 $(document).ready(function(){
   
  $('.carousel').carousel({
@@ -15,8 +15,11 @@ $('#news-slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,    
-  
+    arrows: false,
+    autoplaySpeed: 2000,
+    variableWidth:true,
+   centerMode: true,
+        centerPadding: '20px',
   responsive: [
     {
       breakpoint: 768,
@@ -32,6 +35,62 @@ $('#news-slider').slick({
       settings: {
         arrows: false,
         centerMode: true,
+        centerPadding: '20px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+});
+
+$(document).ready(function(){
+$('#eventos-slider').slick({
+    
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+    autoplaySpeed: 2000,
+    variableWidth:true,
+    dots:true,
+    centerMode: true,
+    centerPadding: '20px',
+  
+    
+  responsive: [
+  {
+      breakpoint: 992,
+      settings: {
+        arrows: false,
+          dots:true,
+        centerMode: true,
+          variableWidth:true,
+        centerPadding: '20px',
+        slidesToShow: 4
+      }
+    }
+      ,
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+          variableWidth:true,
+          dots:true,
+        centerPadding: '20px',
+        slidesToShow: 2
+      }
+    }
+      ,
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+          dots:true,
+          draggable:true,
+        centerMode: true,
+          variableWidth:true,
+          mobileFirst:true,
         centerPadding: '20px',
         slidesToShow: 1
       }

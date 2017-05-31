@@ -1,0 +1,99 @@
+.owl-carousel{
+  margin: 0 0 10px 0;
+    overflow: hidden;
+}
+.post-slide{
+    margin: 10px 10px;
+    font-family: $fuente-slider;
+    .post-img{
+        overflow: hidden;
+        img{
+            position: relative;
+            width: 100%;
+            height: auto;
+            transform: scale(1);
+            transition: all 1s ease-in-out 0s;
+            z-index: 92;
+            
+            &:hover{
+                transform: scale(1.08);
+            }
+        }
+    }
+    
+    .post-content{
+        position: relative;
+        background:  rgba(243,247,240,.8);
+        padding: 15px;
+        top: 0;
+    }
+    .post-title{
+        font-size: 17px;
+        font-weight: $gruesor-titulo-slider;
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+        max-width: 235px;
+
+        position: relative;
+        z-index: 91;
+        a{
+            display: inline-block;
+            color: $color-letra-noticia;
+            transition: all 0.3s ease 0s;
+            &:hover{
+            color: $hover-titulo-slider-noticias;
+            text-decoration: none;
+            }
+        }
+    }
+    .post-description{
+        font-size:$size-letra-descripcion;
+        color: $color-letra-slider-noticias;
+        font-weight: $gruesor-descripcion;
+        line-height: 24px;
+        margin-bottom: 14px;
+    }
+    .post-bar{
+         //fecha y categoria
+        padding: 0;
+        margin-bottom: 15px;
+        list-style: none;
+        position: relative;
+        li{
+            color: color-letra-fecha;
+            padding: 2px 0;
+            i{
+                color: color-letra-fecha;
+                padding: 2px 0;
+            }
+            a{
+                display: inline-block;
+                font-size: 12px;
+                color: $color-letra-categoria;
+                transition: all 0.3s ease 0s;
+               
+                &:hover{
+                    color: $color-hover-categoria;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .read-more{
+        display: inline-block;
+        padding: 5px 15px;
+        margin-top: 5px;
+        font-size: $size-letra-btn-leerMas;
+        font-weight: $gruesor-btn-slider;
+        color: $color-letra-btn-slider;
+        background: $fondo-btn-slider;
+        border-bottom-right-radius: 10px;
+        text-transform: capitalize;
+        transition: all 0.30s linear;
+        &:hover{
+            background: $hover-btn-slider;
+            text-decoration: none;
+        }
+    }
+}
