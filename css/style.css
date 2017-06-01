@@ -593,8 +593,7 @@ SECCIÓN NOTICIAS */
   .box-noticias {
     width: 100%;
     max-width: 1120px;
-    margin: 0 auto;
-    margin-left: 80px; }
+    margin: 0 auto; }
 
   .slider-aviso {
     width: 100%;
@@ -624,7 +623,7 @@ SECCIÓN NOTICIAS */
 
   .box-noticias {
     width: 90%;
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto; } }
 /*
 Los cambios están en las medias queries.
