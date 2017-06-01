@@ -939,26 +939,85 @@ Los cambios están en las medias queries.
     .consultas .consultas-pedidos .titulo {
       font-size: 14px;
       font-family: "Raleway", sans-serif;
+      font-weight: 300;
       text-align: center;
       position: relative;
       margin-top: 10px;
-      margin-bottom: 5px; }
-    .consultas .consultas-pedidos .item {
+      margin-bottom: 5px;
+      top: 20px;
+      transition: .5s ease; }
+    .consultas .consultas-pedidos .item1 {
       margin-top: 0;
       margin-bottom: 10px; }
-      .consultas .consultas-pedidos .item li {
+      .consultas .consultas-pedidos .item1 li {
         list-style: none;
         width: 95%;
         display: block;
         float: right;
         top: 0;
         margin-top: 0; }
-        .consultas .consultas-pedidos .item li a {
+        .consultas .consultas-pedidos .item1 li a {
           font-family: "Raleway", sans-serif;
           font-size: 12px;
           color: white; }
-          .consultas .consultas-pedidos .item li a:link {
+          .consultas .consultas-pedidos .item1 li a:link {
             text-decoration: none; }
+
+/* EFECTO */
+.consultas-pedidos {
+  position: relative;
+  width: 50%;
+  overflow: hidden; }
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.icon1 {
+  background-image: url(../img/consulta-icon-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  opacity: 1;
+  position: relative;
+  margin: 0 auto;
+  top: 15px;
+  transition: .5s ease; }
+
+.item1 {
+  position: absolute;
+  left: 100%;
+  top: 30px;
+  width: 100%;
+  transition: .5s ease; }
+
+.consultas-pedidos:hover .item1 {
+  width: 100%;
+  left: 0; }
+
+.consultas-pedidos:hover .titulo {
+  top: 0;
+  transition: .5s ease;
+  text-decoration: underline; }
+
+.consultas-pedidos:hover .icon1 {
+  opacity: .3; }
+
+.consultas-pedidos li a:hover {
+  background: rgba(0, 0, 0, 0.4); }
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
 
 .sec-consul {
   text-align: center; }
