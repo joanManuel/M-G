@@ -29,10 +29,12 @@
     overflow: hidden;
 
 .post-evento-slide{
+    
     margin: 10px 10px;
     font-family: $fuente-slider;
     max-width: 200px;
    
+        box-shadow: 2px 2px 8px rgba(0,0,0,.1);
     .post-img{
         overflow: hidden;
         img{
@@ -84,9 +86,20 @@
         margin-bottom: 15px;
         list-style: none;
         position: relative;
+        .dia{
+            display: inline-block;
+        width: 49%;  
+            float: left;
+        }
+        .hora{
+            display: inline-block;
+            width: 49%;
+            float: right;
+        }
         li{
            color: color-letra-fecha;
             padding: 2px 0;
+            
             i{
                 
             }

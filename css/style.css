@@ -696,7 +696,8 @@ Los cambios están en las medias queries.
   .owl-carousel-eventos .post-evento-slide {
     margin: 10px 10px;
     font-family: "Raleway", sans-serif;
-    max-width: 200px; }
+    max-width: 200px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); }
     .owl-carousel-eventos .post-evento-slide .post-img {
       overflow: hidden; }
       .owl-carousel-eventos .post-evento-slide .post-img img {
@@ -731,6 +732,14 @@ Los cambios están en las medias queries.
       margin-bottom: 15px;
       list-style: none;
       position: relative; }
+      .owl-carousel-eventos .post-evento-slide .post-bar .dia {
+        display: inline-block;
+        width: 49%;
+        float: left; }
+      .owl-carousel-eventos .post-evento-slide .post-bar .hora {
+        display: inline-block;
+        width: 49%;
+        float: right; }
       .owl-carousel-eventos .post-evento-slide .post-bar li {
         color: color-letra-fecha;
         padding: 2px 0; }
@@ -927,15 +936,14 @@ Los cambios están en las medias queries.
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: baseline;
-  align-content: flex-start;
-  height: 100%; }
-  .consultas .consultas-pedidos {
+  align-content: flex-start; }
+  .consultas .consultas-pedidos, .consultas .educacion {
     margin: 5px auto;
     color: white;
     height: 140px;
     width: 210px;
     background: #494947; }
-    .consultas .consultas-pedidos .titulo {
+    .consultas .consultas-pedidos .titulo, .consultas .educacion .titulo {
       font-size: 14px;
       font-family: "Raleway", sans-serif;
       font-weight: 300;
@@ -945,33 +953,30 @@ Los cambios están en las medias queries.
       margin-bottom: 5px;
       top: 20px;
       transition: .5s ease; }
-    .consultas .consultas-pedidos .item1 {
+    .consultas .consultas-pedidos .item1, .consultas .consultas-pedidos .item2, .consultas .educacion .item1, .consultas .educacion .item2 {
       margin-top: 0;
       margin-bottom: 10px; }
-      .consultas .consultas-pedidos .item1 li {
+      .consultas .consultas-pedidos .item1 li, .consultas .consultas-pedidos .item2 li, .consultas .educacion .item1 li, .consultas .educacion .item2 li {
         list-style: none;
         width: 95%;
         display: block;
         float: right;
         top: 0;
         margin-top: 0; }
-        .consultas .consultas-pedidos .item1 li a {
+        .consultas .consultas-pedidos .item1 li a, .consultas .consultas-pedidos .item2 li a, .consultas .educacion .item1 li a, .consultas .educacion .item2 li a {
           font-family: "Raleway", sans-serif;
           font-size: 12px;
           color: white; }
-          .consultas .consultas-pedidos .item1 li a:link {
+          .consultas .consultas-pedidos .item1 li a:link, .consultas .consultas-pedidos .item2 li a:link, .consultas .educacion .item1 li a:link, .consultas .educacion .item2 li a:link {
             text-decoration: none; }
+    .consultas .consultas-pedidos .item2, .consultas .educacion .item2 {
+      margin-top: 15px; }
 
 /* EFECTO */
-.consultas-pedidos {
+.consultas-pedidos, .educacion {
   position: relative;
   width: 50%;
   overflow: hidden; }
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto; }
 
 .icon1 {
   background-image: url(../img/consulta-icon-1.png);
@@ -985,18 +990,18 @@ Los cambios están en las medias queries.
   top: 15px;
   transition: .5s ease; }
 
-.item1 {
+.item1, .item2 {
   position: absolute;
   left: 100%;
   top: 30px;
   width: 100%;
   transition: .5s ease; }
 
-.consultas-pedidos:hover .item1 {
+.consultas-pedidos:hover .item1, .educacion:hover .item2 {
   width: 100%;
   left: 0; }
 
-.consultas-pedidos:hover .titulo {
+.consultas-pedidos:hover .titulo, .educacion:hover .titulo {
   top: 0;
   transition: .5s ease;
   text-decoration: underline; }
@@ -1004,11 +1009,13 @@ Los cambios están en las medias queries.
 .consultas-pedidos:hover .icon1 {
   opacity: .3; }
 
-.consultas-pedidos li a:hover {
+.consultas-pedidos li a:hover, .educacion li a:hover {
   background: rgba(0, 0, 0, 0.4); }
 
+/*
+
 .text {
-  white-space: nowrap;
+  white-space: nowrap; 
   color: white;
   font-size: 20px;
   position: absolute;
@@ -1016,17 +1023,25 @@ Los cambios están en las medias queries.
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); }
+  -ms-transform: translate(-50%, -50%);
+}
 
-.sec-consul {
-  text-align: center; }
-  .sec-consul img {
-    margin-top: -52px; }
 
-figure {
+.sec-consul{
+  text-align: center;
+  img{
+    margin-top: -52px;
+  }
+  
+}
+figure{
   margin: 0 auto;
-  width: 940px; }
-
+  width: 940px;
+  img{
+    
+  }
+}
+*/
 /* EDUCACION */
 .consultas {
   height: 100%; }
