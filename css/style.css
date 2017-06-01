@@ -952,7 +952,8 @@ Los cambios están en las medias queries.
       margin-top: 10px;
       margin-bottom: 5px;
       top: 20px;
-      transition: .5s ease; }
+      transition: .5s ease;
+      -moz-transition: .5s ease; }
     .consultas .consultas-pedidos .item1, .consultas .consultas-pedidos .item2, .consultas .educacion .item1, .consultas .educacion .item2 {
       margin-top: 0;
       margin-bottom: 10px; }
