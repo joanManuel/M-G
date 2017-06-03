@@ -712,7 +712,7 @@ Los cambios están en las medias queries.
       padding: 15px;
       top: 0; }
     .owl-carousel-eventos .post-evento-slide .post-title {
-      font-size: 17px;
+      font-size: 14px;
       font-weight: 700;
       margin-top: 0;
       width: 100%;
@@ -732,25 +732,24 @@ Los cambios están en las medias queries.
       margin-bottom: 15px;
       list-style: none;
       position: relative; }
+      .owl-carousel-eventos .post-evento-slide .post-bar .lugar {
+        font-family: "Raleway", sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        color: grey; }
       .owl-carousel-eventos .post-evento-slide .post-bar .dia {
         display: inline-block;
         width: 49%;
-        float: left; }
+        float: left;
+        font-size: 12px; }
       .owl-carousel-eventos .post-evento-slide .post-bar .hora {
         display: inline-block;
         width: 49%;
-        float: right; }
+        float: right;
+        font-size: 12px; }
       .owl-carousel-eventos .post-evento-slide .post-bar li {
         color: color-letra-fecha;
         padding: 2px 0; }
-        .owl-carousel-eventos .post-evento-slide .post-bar li a {
-          display: inline-block;
-          font-size: 12px;
-          color: #676767;
-          transition: all 0.3s ease 0s; }
-          .owl-carousel-eventos .post-evento-slide .post-bar li a:hover {
-            color: #3d3030;
-            text-decoration: none; }
 
 /*
 .post-slide .post-img{
@@ -1178,5 +1177,14 @@ figure{
         color: white; }
         .educacion ul li a:link {
           text-decoration: none; }
+
+footer {
+  background: #494947; }
+  footer .fot1 {
+    width: 120px;
+    height: 40px;
+    background: #ff5c43; }
+    footer .fot1 h1 {
+      font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */

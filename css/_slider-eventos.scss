@@ -57,7 +57,7 @@
     }
     .post-title{
        
-        font-size: 17px;
+        font-size: 14px;
         font-weight: $gruesor-titulo-slider;
         margin-top: 0;
         width: 100%;
@@ -86,34 +86,28 @@
         margin-bottom: 15px;
         list-style: none;
         position: relative;
+        .lugar{
+            font-family: $fuente-logo;
+            font-weight: 300;
+            font-size: 12px;
+            color: grey;
+        }
         .dia{
             display: inline-block;
         width: 49%;  
             float: left;
+            font-size: 12px;
         }
         .hora{
             display: inline-block;
             width: 49%;
             float: right;
+            font-size: 12px;
         }
         li{
            color: color-letra-fecha;
             padding: 2px 0;
-            
-            i{
-                
-            }
-            a{
-                display: inline-block;
-                font-size: 12px;
-                color: $color-letra-categoria;
-                transition: all 0.3s ease 0s;
-               
-                &:hover{
-                    color: $color-hover-categoria;
-                    text-decoration: none;
-            }
-        }
+           
     }
     
     }
