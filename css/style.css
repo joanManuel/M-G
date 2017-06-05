@@ -599,6 +599,7 @@ SECCIÓN NOTICIAS */
     width: 100%;
     height: auto; }
     .slider-aviso .carousel, .slider-aviso .carousel-inner > .item > img {
+      float: right;
       width: 100%;
       /* max-width: 840px;
       height: 480px; */ } }
@@ -628,6 +629,14 @@ SECCIÓN NOTICIAS */
 /*
 Los cambios están en las medias queries.
 */
+.box-facebook {
+  margin-top: 10px;
+  text-align: left; }
+  .box-facebook .fb-page {
+    margin-left: 10px;
+    height: 420px;
+    overflow: hidden; }
+
 .box-noticias {
   display: block;
   margin-top: 10px;

@@ -479,10 +479,11 @@ header
         margin: 0 auto;
     }
     .slider-aviso{
+        
         width: 100%;
         height: auto;
     .carousel, .carousel-inner > .item > img {
-       
+       float: right;//new
         width: 100%;
         /* max-width: 840px;
         height: 480px; */
