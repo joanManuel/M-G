@@ -305,7 +305,22 @@ SECCIÓN NOTICIAS */
       margin: 0 auto;
       width: 100%;
       max-width: 420px;
-      height: 280px; } }
+      height: 280px; }
+
+  .box-facebook {
+    width: 100%; }
+    .box-facebook .fb-page {
+      width: 100%;
+      text-align: center; }
+
+  .enla_exter .logos-exter img {
+    width: 100%;
+    max-width: 200px; }
+
+  .box-facebook {
+    display: none; }
+    .box-facebook .fb-page {
+      display: none; } }
 @media only screen and (min-width: 480px) {
   body {
     background: url(../img/fondo-movil-640.png) no-repeat; }
@@ -578,7 +593,38 @@ SECCIÓN NOTICIAS */
     .post-slide .read-more {
       position: absolute;
       display: inline-block;
-      bottom: 4%; } }
+      bottom: 4%; }
+
+  .enla_exter {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto; }
+    .enla_exter .logos-exter {
+      width: 80%;
+      margin: 0 auto; }
+      .enla_exter .logos-exter img {
+        vertical-align: middle;
+        width: 300px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        margin: 10px; }
+
+  .enla_exter .logos-exter img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    transition-duration: .3s; }
+    .enla_exter .logos-exter img:hover {
+      filter: grayscale(0);
+      -webkit-filter: grayscale(0);
+      -moz-filter: grayscale(0);
+      -ms-filter: grayscale(0);
+      -o-filter: grayscale(0); } }
 @media only screen and (min-width: 1200px) {
   .logo {
     margin-left: 42%; }
@@ -601,8 +647,19 @@ SECCIÓN NOTICIAS */
     .slider-aviso .carousel, .slider-aviso .carousel-inner > .item > img {
       float: right;
       width: 100%;
+      max-width: 680px;
       /* max-width: 840px;
-      height: 480px; */ } }
+      height: 480px; */ }
+
+  .box-facebook {
+    width: 190px; }
+    .box-facebook .fb-page {
+      width: 420px; }
+
+  .box-facebook {
+    display: block; }
+    .box-facebook .fb-page {
+      display: block; } }
 @media only screen and (min-width: 1440px) {
   body {
     background-attachment: fixed;
@@ -630,6 +687,7 @@ SECCIÓN NOTICIAS */
 Los cambios están en las medias queries.
 */
 .box-facebook {
+  height: 420px;
   margin-top: 10px;
   text-align: left; }
   .box-facebook .fb-page {
