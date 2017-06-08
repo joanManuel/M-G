@@ -652,14 +652,15 @@ SECCIÓN NOTICIAS */
       height: 480px; */ }
 
   .box-facebook {
-    width: 190px; }
+    width: 480px; }
     .box-facebook .fb-page {
-      width: 420px; }
+      width: 480px; }
 
   .box-facebook {
     display: block; }
     .box-facebook .fb-page {
-      display: block; } }
+      display: block;
+      text-align: left; } }
 @media only screen and (min-width: 1440px) {
   body {
     background-attachment: fixed;
@@ -1246,12 +1247,32 @@ figure{
           text-decoration: none; }
 
 footer {
-  background: #494947; }
-  footer .fot1 {
-    width: 120px;
-    height: 40px;
-    background: #ff5c43; }
-    footer .fot1 h1 {
-      font-size: 16px; }
+  background: #494947;
+  font-family: "Raleway", sans-serif; }
+  footer .box-important {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center; }
+    footer .box-important .box-general-footer {
+      width: 120px;
+      height: 40px; }
+      footer .box-important .box-general-footer h1 {
+        font-size: 16px; }
+    footer .box-important .fot1 {
+      margin-right: 10px;
+      background: #ff5c43; }
+    footer .box-important .fot2 {
+      background: green;
+      margin-right: 10px; }
+    footer .box-important .fot3 {
+      background: blue; }
+  footer .box-info-footer {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px; }
+    footer .box-info-footer p {
+      margin: 0;
+      padding: 0; }
 
 /*# sourceMappingURL=style.css.map */

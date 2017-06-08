@@ -1,11 +1,51 @@
 footer{
     background: $fondo-hover-menu;
-    .fot1{
-        width: 120px;
-        height: 40px;
+    font-family: $fuente-logo;
+    .box-important{
+        padding-top: 15px;
+        display: flex;
+        justify-content: center;
+        .box-general-footer{
+            width: 120px;
+            height: 40px;
+            
+            h1{
+                font-size: 16px;
+            }
+        }
+      .fot1{
+          margin-right: 10px;
         background: rgb(255,92,67);
-        h1{
-            font-size: 16px;
+        }  
+        .fot2{
+            background: green;
+            margin-right: 10px;
+        }
+        .fot3{
+            background: blue;
         }
     }
+    
+    
+    .box-info-footer{
+        padding-top: 10px;
+    text-align: center;
+    color: white;
+        padding-bottom: 20px;
+        p{
+            margin: 0;
+            padding: 0;
+        }
+        .direcion{
+    
+        }
+        .telefono{
+
+        }
+        .correo{
+
+        }
+    }
+    
+    
 }

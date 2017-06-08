@@ -566,28 +566,29 @@ header
         margin: 0 auto;
     }
     .slider-aviso{
-        
         width: 100%;
         height: auto;
     .carousel, .carousel-inner > .item > img {
       float: right;
         width: 100%;
         max-width: 680px;
+        
         /* max-width: 840px;
         height: 480px; */
         }
    
     }
     .box-facebook{
-        width: 190px;
+        width: 480px;
         .fb-page{
-            width: 420px; //340 = 0 | 440px = 0 for my
+            width: 480px; //340 = 0 | 440px = 0 for my
         }
     }
     .box-facebook{
         display: block;
         .fb-page{
             display: block;
+            text-align: left;
         }
     }
     
