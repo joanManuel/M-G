@@ -99,7 +99,55 @@ $('#eventos-slider').slick({
 });
 });
 
-
+$(document).ready(function(){
+$('#enla_exter').slick({
+    
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+    autoplaySpeed: 2000,
+    variableWidth:true,
+    dots:true,
+    centerMode: true,
+  responsive: [
+  {
+      breakpoint: 992,
+      settings: {
+        arrows: false,
+          dots:true,
+        centerMode: true,
+          variableWidth:true,
+        slidesToShow: 4
+      }
+    }
+      ,
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+          variableWidth:true,
+          dots:true,
+        slidesToShow: 2
+      }
+    }
+      ,
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+          dots:true,
+          draggable:true,
+        centerMode: true,
+          variableWidth:true,
+          mobileFirst:true,
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+});
 /*
 
 $(document).ready(function() {
