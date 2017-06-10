@@ -215,6 +215,36 @@ SECCIÓN NOTICIAS */
         }
     }
 */
+.box-sec {
+  background: #f3f7f0; }
+  .box-sec .video {
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px 0; }
+    .box-sec .video h1 {
+      font-family: "Raleway", sans-serif;
+      font-size: 18px;
+      text-align: left;
+      margin-left: 45px; }
+    .box-sec .video iframe {
+      width: 450px; }
+  .box-sec .olx {
+    font-family: "Raleway", sans-serif; }
+    .box-sec .olx h1 {
+      font-size: 18px; }
+    .box-sec .olx .bk {
+      width: 50%;
+      height: 85px; }
+    .box-sec .olx a {
+      width: 100%;
+      height: 100%;
+      text-decoration: none; }
+    .box-sec .olx .left {
+      float: left; }
+    .box-sec .olx .right {
+      float: right; }
+
 .owl-carousel {
   margin: 0 0 10px 0;
   overflow: hidden; }
@@ -692,7 +722,7 @@ Los cambios están en las medias queries.
   margin-top: 10px;
   text-align: left; }
   .box-facebook .fb-page {
-    margin-left: 10px;
+    margin-left: 30px;
     height: 420px;
     overflow: hidden; }
 
@@ -736,45 +766,44 @@ Los cambios están en las medias queries.
 
 @media only screen and (min-width: 1200px) {
   .box-noticias {
-    margin-top: 30px; } }
+    margin-top: -10px; } }
 /* SECCIÓN NOTICIAS*/
 .box-evento {
-  margin-top: 10px;
-  background: #f3f7f0; }
-  .box-evento .titulo-eventos {
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    display: block;
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 30px; }
-  .box-evento .linea {
-    width: 160px;
-    height: 1px;
-    background: #494947;
-    border: solid 1.2px #494947;
-    margin-top: -8px;
-    margin-left: 28px; }
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 1480px;
+  background: rgba(243, 247, 250, 0.8); }
+  .box-evento .box-titulo-evento {
+    padding-top: 10px;
+    text-align: center; }
+    .box-evento .box-titulo-evento .titulo-eventos {
+      font-family: "Raleway", sans-serif;
+      font-size: 1.8em;
+      font-weight: 700;
+      display: inline-block;
+      margin: 0 auto; }
+    .box-evento .box-titulo-evento .linea {
+      height: 1px;
+      width: 100%;
+      max-width: 220px;
+      background: #494947;
+      border: solid 1.2px #494947;
+      margin: 0 auto; }
 
 /* SLIDER */
 .owl-carousel-eventos {
   margin: 0 auto 10px auto;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 0;
+  padding-bottom: 20px; }
   .owl-carousel-eventos .post-evento-slide {
     margin: 10px 10px;
     font-family: "Raleway", sans-serif;
     max-width: 200px;
+    background: #f3f7fa;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); }
-    .owl-carousel-eventos .post-evento-slide .post-img {
-      overflow: hidden; }
-      .owl-carousel-eventos .post-evento-slide .post-img img {
-        width: 100%;
-        height: auto;
-        transform: scale(1);
-        transition: all 1s ease-in-out 0s; }
-        .owl-carousel-eventos .post-evento-slide .post-img img:hover {
-          transform: scale(1.08); }
     .owl-carousel-eventos .post-evento-slide .post-content {
       position: relative;
       padding: 15px;
