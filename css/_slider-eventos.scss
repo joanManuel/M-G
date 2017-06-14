@@ -11,7 +11,7 @@
         text-align: center;
      .titulo-eventos{
         font-family: $fuente-logo;
-        font-size: 1.5em;
+        font-size: $size-letra-titulo-noticia;
         font-weight: $gruesor-letra-titulo-noticia;
         display: inline-block;
         margin: 0 auto;
@@ -20,7 +20,7 @@
     .linea{
       height: 1px;
       width: 100%;
-        max-width: 185px;
+        max-width: 160px;
         background: $color-linea-titulo;
       border: solid 1.2px $color-linea-titulo;
       margin: 0 auto;

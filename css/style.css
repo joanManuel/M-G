@@ -778,14 +778,14 @@ Los cambios están en las medias queries.
     text-align: center; }
     .box-evento .box-titulo-evento .titulo-eventos {
       font-family: "Raleway", sans-serif;
-      font-size: 1.5em;
+      font-size: 18px;
       font-weight: 700;
       display: inline-block;
       margin: 0 auto; }
     .box-evento .box-titulo-evento .linea {
       height: 1px;
       width: 100%;
-      max-width: 185px;
+      max-width: 160px;
       background: #494947;
       border: solid 1.2px #494947;
       margin: 0 auto; }
