@@ -1,55 +1,52 @@
 /* SECCIÓN NOTICIAS*/
 
 .box-evento{
-    margin-top: 10px;
-    background: $fondo-alternativo;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 1480px;
+    background: rgba(243,247,250,.8);
     
-    .titulo-eventos{
+    .box-titulo-evento{
+        padding-top: 10px;
+        text-align: center;
+     .titulo-eventos{
         font-family: $fuente-logo;
-        font-size: $size-letra-titulo-noticia;
+        font-size: 1.5em;
         font-weight: $gruesor-letra-titulo-noticia;
-          display: block;
-       display: inline-block;
-        margin-top: 10px;
-        margin-left: 30px;
+        display: inline-block;
+        margin: 0 auto;
+        
     }
     .linea{
-      width: 160px;
       height: 1px;
+      width: 100%;
+        max-width: 185px;
         background: $color-linea-titulo;
       border: solid 1.2px $color-linea-titulo;
-      margin-top: -8px;
-        margin-left: 28px;
+      margin: 0 auto;
+    }   
+        
     }
+    
 }
 
 /* SLIDER */
 .owl-carousel-eventos{
   margin: 0 auto 10px auto;
     overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
 
 .post-evento-slide{
     
     margin: 10px 10px;
     font-family: $fuente-slider;
     max-width: 200px;
-   
+    background: rgba(243,247,250,1);
         box-shadow: 2px 2px 8px rgba(0,0,0,.1);
-    .post-img{
-        overflow: hidden;
-        img{
-            
-            width: 100%;
-            height: auto;
-            transform: scale(1);
-            transition: all 1s ease-in-out 0s;
-            
-            
-            &:hover{
-                transform: scale(1.08);
-            }
-        }
-    }
+    
     .post-content{
         position: relative;
         padding: 15px;

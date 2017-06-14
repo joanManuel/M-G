@@ -10,7 +10,8 @@
     align-items: baseline;
     align-content: flex-start;
     
-    .consultas-pedidos, .educacion {  
+    .consultas-pedidos, .educacion,.servicios-sociales,.ciudad-sostenible,
+    .servicio-vecino,.ciudad-seguro{  
         margin: 5px auto;
         color: white;
         height: 140px;
@@ -26,7 +27,7 @@
            transition: .5s ease;
           -moz-transition: .5s ease;
         //top: 4px;
-        }.item1,.item2{
+        }.item1,.item2,.item3,.item4,.item5,.item6{
         //padding: 10px;
         margin-top: 0;
         margin-bottom: 10px;
@@ -58,15 +59,13 @@
 
 /* EFECTO */
 
-.consultas-pedidos, .educacion {
+.box-consult {
   position: relative;
   width: 50%;
      overflow: hidden;
 }
 
-
-.icon1{
-    background-image: url(../img/consulta-icon-1.png);
+.ak{
     background-position: center;
     background-repeat: no-repeat;
     width: 72px;
@@ -78,7 +77,31 @@
     top: 15px;
     transition: .5s ease;
 }
-.item1,.item2 {
+
+.icon1{
+    background-image: url(../img/consult-1.png);
+    
+}
+.icon2{
+    background-image: url(../img/consult-2.png);
+}
+.icon3{
+    background-image: url(../img/consult-3.png);
+}
+
+.icon4{
+    background-image: url(../img/consult-4.png);
+}
+
+.icon5{
+    background-image: url(../img/consult-5.png);
+}
+
+.icon6{
+    background-image: url(../img/consult-6.png);
+}
+
+.item1,.item2,.item3,.item4,.item5,.item6 {
   position: absolute;
   //bottom: 0;
   left: 100%;
@@ -90,17 +113,29 @@ top: 30px;
   transition: .5s ease;
 }
 
-.consultas-pedidos:hover .item1, .educacion:hover .item2 {
+.consultas-pedidos:hover .item1, .educacion:hover .item2,
+.servicios-sociales:hover .item3, .ciudad-sostenible:hover .item4,
+.servicio-vecino:hover .item5,.ciudad-seguro:hover .item6{
   width: 100%;
   left: 0;
 }
-.consultas-pedidos:hover .titulo, .educacion:hover .titulo{
+.consultas-pedidos:hover .titulo, 
+.educacion:hover .titulo,
+.servicios-sociales:hover .titulo,
+.ciudad-sostenible:hover .titulo,
+.servicio-vecino:hover .titulo,
+.ciudad-seguro:hover .titulo{
     
     top: 0;
      transition: .5s ease;
     text-decoration: underline;
 }
-.consultas-pedidos:hover .icon1{
+.consultas-pedidos:hover .icon1,
+.educacion:hover .icon2, 
+.servicios-sociales:hover .icon3, 
+.ciudad-sostenible:hover .icon4,
+.servicio-vecino:hover .icon5,
+.ciudad-seguro:hover .icon6{
     opacity: .3;
 }
 .consultas-pedidos li a:hover,.educacion li a:hover{
