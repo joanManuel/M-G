@@ -225,14 +225,18 @@ SECCIÓN NOTICIAS */
     .box-sec .video h1 {
       font-family: "Raleway", sans-serif;
       font-size: 18px;
-      text-align: left;
-      margin-left: 45px; }
+      text-align: center;
+      margin: 10px auto; }
     .box-sec .video iframe {
-      width: 450px; }
+      width: 100%;
+      max-width: 560px; }
   .box-sec .olx {
-    font-family: "Raleway", sans-serif; }
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    overflow: hidden; }
     .box-sec .olx h1 {
-      font-size: 18px; }
+      font-size: 1em;
+      width: 100%; }
     .box-sec .olx .bk {
       width: 50%;
       height: 85px; }
@@ -593,6 +597,182 @@ SECCIÓN NOTICIAS */
       width: 100%;
       max-width: 640px;
       height: 420px; }
+
+  .consultas {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 98%;
+    background: rgba(243, 247, 240, 0.6); }
+    .consultas .consultas-pedidos, .consultas .educacion, .consultas .servicios-sociales, .consultas .ciudad-sostenible,
+    .consultas .servicio-vecino, .consultas .ciudad-seguro {
+      margin: 5px auto;
+      color: white;
+      height: 140px;
+      display: block;
+      position: relative;
+      width: 210px;
+      background: #494947; }
+      .consultas .consultas-pedidos .titulo, .consultas .educacion .titulo, .consultas .servicios-sociales .titulo, .consultas .ciudad-sostenible .titulo,
+      .consultas .servicio-vecino .titulo, .consultas .ciudad-seguro .titulo {
+        font-size: 14px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 300;
+        text-align: center;
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        top: 20px;
+        transition: .5s ease;
+        -moz-transition: .5s ease; }
+      .consultas .consultas-pedidos .item1, .consultas .consultas-pedidos .item2, .consultas .consultas-pedidos .item3, .consultas .consultas-pedidos .item4, .consultas .consultas-pedidos .item5, .consultas .consultas-pedidos .item6, .consultas .educacion .item1, .consultas .educacion .item2, .consultas .educacion .item3, .consultas .educacion .item4, .consultas .educacion .item5, .consultas .educacion .item6, .consultas .servicios-sociales .item1, .consultas .servicios-sociales .item2, .consultas .servicios-sociales .item3, .consultas .servicios-sociales .item4, .consultas .servicios-sociales .item5, .consultas .servicios-sociales .item6, .consultas .ciudad-sostenible .item1, .consultas .ciudad-sostenible .item2, .consultas .ciudad-sostenible .item3, .consultas .ciudad-sostenible .item4, .consultas .ciudad-sostenible .item5, .consultas .ciudad-sostenible .item6,
+      .consultas .servicio-vecino .item1,
+      .consultas .servicio-vecino .item2,
+      .consultas .servicio-vecino .item3,
+      .consultas .servicio-vecino .item4,
+      .consultas .servicio-vecino .item5,
+      .consultas .servicio-vecino .item6, .consultas .ciudad-seguro .item1, .consultas .ciudad-seguro .item2, .consultas .ciudad-seguro .item3, .consultas .ciudad-seguro .item4, .consultas .ciudad-seguro .item5, .consultas .ciudad-seguro .item6 {
+        margin-top: 0;
+        margin-bottom: 10px; }
+        .consultas .consultas-pedidos .item1 li, .consultas .consultas-pedidos .item2 li, .consultas .consultas-pedidos .item3 li, .consultas .consultas-pedidos .item4 li, .consultas .consultas-pedidos .item5 li, .consultas .consultas-pedidos .item6 li, .consultas .educacion .item1 li, .consultas .educacion .item2 li, .consultas .educacion .item3 li, .consultas .educacion .item4 li, .consultas .educacion .item5 li, .consultas .educacion .item6 li, .consultas .servicios-sociales .item1 li, .consultas .servicios-sociales .item2 li, .consultas .servicios-sociales .item3 li, .consultas .servicios-sociales .item4 li, .consultas .servicios-sociales .item5 li, .consultas .servicios-sociales .item6 li, .consultas .ciudad-sostenible .item1 li, .consultas .ciudad-sostenible .item2 li, .consultas .ciudad-sostenible .item3 li, .consultas .ciudad-sostenible .item4 li, .consultas .ciudad-sostenible .item5 li, .consultas .ciudad-sostenible .item6 li,
+        .consultas .servicio-vecino .item1 li,
+        .consultas .servicio-vecino .item2 li,
+        .consultas .servicio-vecino .item3 li,
+        .consultas .servicio-vecino .item4 li,
+        .consultas .servicio-vecino .item5 li,
+        .consultas .servicio-vecino .item6 li, .consultas .ciudad-seguro .item1 li, .consultas .ciudad-seguro .item2 li, .consultas .ciudad-seguro .item3 li, .consultas .ciudad-seguro .item4 li, .consultas .ciudad-seguro .item5 li, .consultas .ciudad-seguro .item6 li {
+          list-style: none;
+          width: 95%;
+          display: block;
+          float: right;
+          top: 0;
+          margin-top: 0; }
+          .consultas .consultas-pedidos .item1 li a, .consultas .consultas-pedidos .item2 li a, .consultas .consultas-pedidos .item3 li a, .consultas .consultas-pedidos .item4 li a, .consultas .consultas-pedidos .item5 li a, .consultas .consultas-pedidos .item6 li a, .consultas .educacion .item1 li a, .consultas .educacion .item2 li a, .consultas .educacion .item3 li a, .consultas .educacion .item4 li a, .consultas .educacion .item5 li a, .consultas .educacion .item6 li a, .consultas .servicios-sociales .item1 li a, .consultas .servicios-sociales .item2 li a, .consultas .servicios-sociales .item3 li a, .consultas .servicios-sociales .item4 li a, .consultas .servicios-sociales .item5 li a, .consultas .servicios-sociales .item6 li a, .consultas .ciudad-sostenible .item1 li a, .consultas .ciudad-sostenible .item2 li a, .consultas .ciudad-sostenible .item3 li a, .consultas .ciudad-sostenible .item4 li a, .consultas .ciudad-sostenible .item5 li a, .consultas .ciudad-sostenible .item6 li a,
+          .consultas .servicio-vecino .item1 li a,
+          .consultas .servicio-vecino .item2 li a,
+          .consultas .servicio-vecino .item3 li a,
+          .consultas .servicio-vecino .item4 li a,
+          .consultas .servicio-vecino .item5 li a,
+          .consultas .servicio-vecino .item6 li a, .consultas .ciudad-seguro .item1 li a, .consultas .ciudad-seguro .item2 li a, .consultas .ciudad-seguro .item3 li a, .consultas .ciudad-seguro .item4 li a, .consultas .ciudad-seguro .item5 li a, .consultas .ciudad-seguro .item6 li a {
+            font-family: "Raleway", sans-serif;
+            font-size: 12px;
+            color: white; }
+            .consultas .consultas-pedidos .item1 li a:link, .consultas .consultas-pedidos .item2 li a:link, .consultas .consultas-pedidos .item3 li a:link, .consultas .consultas-pedidos .item4 li a:link, .consultas .consultas-pedidos .item5 li a:link, .consultas .consultas-pedidos .item6 li a:link, .consultas .educacion .item1 li a:link, .consultas .educacion .item2 li a:link, .consultas .educacion .item3 li a:link, .consultas .educacion .item4 li a:link, .consultas .educacion .item5 li a:link, .consultas .educacion .item6 li a:link, .consultas .servicios-sociales .item1 li a:link, .consultas .servicios-sociales .item2 li a:link, .consultas .servicios-sociales .item3 li a:link, .consultas .servicios-sociales .item4 li a:link, .consultas .servicios-sociales .item5 li a:link, .consultas .servicios-sociales .item6 li a:link, .consultas .ciudad-sostenible .item1 li a:link, .consultas .ciudad-sostenible .item2 li a:link, .consultas .ciudad-sostenible .item3 li a:link, .consultas .ciudad-sostenible .item4 li a:link, .consultas .ciudad-sostenible .item5 li a:link, .consultas .ciudad-sostenible .item6 li a:link,
+            .consultas .servicio-vecino .item1 li a:link,
+            .consultas .servicio-vecino .item2 li a:link,
+            .consultas .servicio-vecino .item3 li a:link,
+            .consultas .servicio-vecino .item4 li a:link,
+            .consultas .servicio-vecino .item5 li a:link,
+            .consultas .servicio-vecino .item6 li a:link, .consultas .ciudad-seguro .item1 li a:link, .consultas .ciudad-seguro .item2 li a:link, .consultas .ciudad-seguro .item3 li a:link, .consultas .ciudad-seguro .item4 li a:link, .consultas .ciudad-seguro .item5 li a:link, .consultas .ciudad-seguro .item6 li a:link {
+              text-decoration: none; }
+      .consultas .consultas-pedidos .item2, .consultas .educacion .item2, .consultas .servicios-sociales .item2, .consultas .ciudad-sostenible .item2,
+      .consultas .servicio-vecino .item2, .consultas .ciudad-seguro .item2 {
+        margin-top: 15px; }
+
+  /* EFECTO */
+  .box-consult {
+    position: relative;
+    width: 50%;
+    overflow: hidden; }
+
+  .ak {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    opacity: 1;
+    position: relative;
+    margin: 0 auto;
+    top: 15px;
+    transition: .5s ease; }
+
+  .icon1 {
+    background-image: url(../img/consult-1.png); }
+
+  .icon2 {
+    background-image: url(../img/consult-2.png); }
+
+  .icon3 {
+    background-image: url(../img/consult-3.png); }
+
+  .icon4 {
+    background-image: url(../img/consult-4.png); }
+
+  .icon5 {
+    background-image: url(../img/consult-5.png); }
+
+  .icon6 {
+    background-image: url(../img/consult-6.png); }
+
+  .item1, .item2, .item3, .item4, .item5, .item6 {
+    position: absolute;
+    left: 100%;
+    top: 30px;
+    width: 100%;
+    transition: .5s ease; }
+
+  .consultas-pedidos:hover .item1, .educacion:hover .item2,
+  .servicios-sociales:hover .item3, .ciudad-sostenible:hover .item4,
+  .servicio-vecino:hover .item5, .ciudad-seguro:hover .item6 {
+    width: 100%;
+    left: 0; }
+
+  .consultas-pedidos:hover .titulo,
+  .educacion:hover .titulo,
+  .servicios-sociales:hover .titulo,
+  .ciudad-sostenible:hover .titulo,
+  .servicio-vecino:hover .titulo,
+  .ciudad-seguro:hover .titulo {
+    top: 0;
+    transition: .5s ease;
+    text-decoration: underline; }
+
+  .consultas-pedidos:hover .icon1,
+  .educacion:hover .icon2,
+  .servicios-sociales:hover .icon3,
+  .ciudad-sostenible:hover .icon4,
+  .servicio-vecino:hover .icon5,
+  .ciudad-seguro:hover .icon6 {
+    opacity: .3; }
+
+  .consultas-pedidos li a:hover, .educacion li a:hover {
+    background: rgba(0, 0, 0, 0.4); }
+
+  .consultas {
+    height: 100%; }
+    .consultas .educacion {
+      margin: 10px auto;
+      width: 210px;
+      background: #494947; }
+      .consultas .educacion h1 {
+        font-size: 14px;
+        font-family: "Raleway", sans-serif;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 4px;
+        margin-top: 10px; }
+      .consultas .educacion .item2 {
+        height: 90px; }
+        .consultas .educacion .item2 li {
+          list-style: none;
+          width: 95%;
+          display: block;
+          float: right;
+          top: 0;
+          margin-top: 0; }
+          .consultas .educacion .item2 li a {
+            font-family: "Raleway", sans-serif;
+            font-size: 12px;
+            color: white; }
+            .consultas .educacion .item2 li a:link {
+              text-decoration: none; }
 
   .enla_exter {
     display: block;
@@ -995,6 +1175,9 @@ Los cambios están en las medias queries.
       top: 0; } }
 /* INDEX */
 /* CONSULTAS */
+.box-consult {
+  width: 100%; }
+
 .consultas {
   height: auto;
   display: flex;
@@ -1005,7 +1188,7 @@ Los cambios están en las medias queries.
   align-content: flex-start;
   margin: 0 auto;
   margin-top: 15px;
-  width: 98%;
+  width: 100%;
   background: rgba(243, 247, 240, 0.6); }
   .consultas .consultas-pedidos, .consultas .educacion, .consultas .servicios-sociales, .consultas .ciudad-sostenible,
   .consultas .servicio-vecino, .consultas .ciudad-seguro {
@@ -1014,7 +1197,7 @@ Los cambios están en las medias queries.
     height: 140px;
     display: block;
     position: relative;
-    width: 210px;
+    width: 90%;
     background: #494947; }
     .consultas .consultas-pedidos .titulo, .consultas .educacion .titulo, .consultas .servicios-sociales .titulo, .consultas .ciudad-sostenible .titulo,
     .consultas .servicio-vecino .titulo, .consultas .ciudad-seguro .titulo {
@@ -1025,7 +1208,7 @@ Los cambios están en las medias queries.
       position: relative;
       margin-top: 10px;
       margin-bottom: 5px;
-      top: 20px;
+      top: 5px;
       transition: .5s ease;
       -moz-transition: .5s ease; }
     .consultas .consultas-pedidos .item1, .consultas .consultas-pedidos .item2, .consultas .consultas-pedidos .item3, .consultas .consultas-pedidos .item4, .consultas .consultas-pedidos .item5, .consultas .consultas-pedidos .item6, .consultas .educacion .item1, .consultas .educacion .item2, .consultas .educacion .item3, .consultas .educacion .item4, .consultas .educacion .item5, .consultas .educacion .item6, .consultas .servicios-sociales .item1, .consultas .servicios-sociales .item2, .consultas .servicios-sociales .item3, .consultas .servicios-sociales .item4, .consultas .servicios-sociales .item5, .consultas .servicios-sociales .item6, .consultas .ciudad-sostenible .item1, .consultas .ciudad-sostenible .item2, .consultas .ciudad-sostenible .item3, .consultas .ciudad-sostenible .item4, .consultas .ciudad-sostenible .item5, .consultas .ciudad-sostenible .item6,
@@ -1036,7 +1219,10 @@ Los cambios están en las medias queries.
     .consultas .servicio-vecino .item5,
     .consultas .servicio-vecino .item6, .consultas .ciudad-seguro .item1, .consultas .ciudad-seguro .item2, .consultas .ciudad-seguro .item3, .consultas .ciudad-seguro .item4, .consultas .ciudad-seguro .item5, .consultas .ciudad-seguro .item6 {
       margin-top: 0;
-      margin-bottom: 10px; }
+      position: absolute;
+      top: 30px;
+      width: 100%;
+      transition: .5s ease; }
       .consultas .consultas-pedidos .item1 li, .consultas .consultas-pedidos .item2 li, .consultas .consultas-pedidos .item3 li, .consultas .consultas-pedidos .item4 li, .consultas .consultas-pedidos .item5 li, .consultas .consultas-pedidos .item6 li, .consultas .educacion .item1 li, .consultas .educacion .item2 li, .consultas .educacion .item3 li, .consultas .educacion .item4 li, .consultas .educacion .item5 li, .consultas .educacion .item6 li, .consultas .servicios-sociales .item1 li, .consultas .servicios-sociales .item2 li, .consultas .servicios-sociales .item3 li, .consultas .servicios-sociales .item4 li, .consultas .servicios-sociales .item5 li, .consultas .servicios-sociales .item6 li, .consultas .ciudad-sostenible .item1 li, .consultas .ciudad-sostenible .item2 li, .consultas .ciudad-sostenible .item3 li, .consultas .ciudad-sostenible .item4 li, .consultas .ciudad-sostenible .item5 li, .consultas .ciudad-sostenible .item6 li,
       .consultas .servicio-vecino .item1 li,
       .consultas .servicio-vecino .item2 li,
@@ -1071,75 +1257,6 @@ Los cambios están en las medias queries.
     .consultas .consultas-pedidos .item2, .consultas .educacion .item2, .consultas .servicios-sociales .item2, .consultas .ciudad-sostenible .item2,
     .consultas .servicio-vecino .item2, .consultas .ciudad-seguro .item2 {
       margin-top: 15px; }
-
-/* EFECTO */
-.box-consult {
-  position: relative;
-  width: 50%;
-  overflow: hidden; }
-
-.ak {
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 72px;
-  height: 72px;
-  opacity: 1;
-  position: relative;
-  margin: 0 auto;
-  top: 15px;
-  transition: .5s ease; }
-
-.icon1 {
-  background-image: url(../img/consult-1.png); }
-
-.icon2 {
-  background-image: url(../img/consult-2.png); }
-
-.icon3 {
-  background-image: url(../img/consult-3.png); }
-
-.icon4 {
-  background-image: url(../img/consult-4.png); }
-
-.icon5 {
-  background-image: url(../img/consult-5.png); }
-
-.icon6 {
-  background-image: url(../img/consult-6.png); }
-
-.item1, .item2, .item3, .item4, .item5, .item6 {
-  position: absolute;
-  left: 100%;
-  top: 30px;
-  width: 100%;
-  transition: .5s ease; }
-
-.consultas-pedidos:hover .item1, .educacion:hover .item2,
-.servicios-sociales:hover .item3, .ciudad-sostenible:hover .item4,
-.servicio-vecino:hover .item5, .ciudad-seguro:hover .item6 {
-  width: 100%;
-  left: 0; }
-
-.consultas-pedidos:hover .titulo,
-.educacion:hover .titulo,
-.servicios-sociales:hover .titulo,
-.ciudad-sostenible:hover .titulo,
-.servicio-vecino:hover .titulo,
-.ciudad-seguro:hover .titulo {
-  top: 0;
-  transition: .5s ease;
-  text-decoration: underline; }
-
-.consultas-pedidos:hover .icon1,
-.educacion:hover .icon2,
-.servicios-sociales:hover .icon3,
-.ciudad-sostenible:hover .icon4,
-.servicio-vecino:hover .icon5,
-.ciudad-seguro:hover .icon6 {
-  opacity: .3; }
-
-.consultas-pedidos li a:hover, .educacion li a:hover {
-  background: rgba(0, 0, 0, 0.4); }
 
 /*
 
@@ -1176,7 +1293,6 @@ figure{
   height: 100%; }
   .consultas .educacion {
     margin: 10px auto;
-    width: 210px;
     background: #494947; }
     .consultas .educacion h1 {
       font-size: 14px;

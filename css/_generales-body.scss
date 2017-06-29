@@ -159,23 +159,26 @@ SECCIÓN NOTICIAS */
         h1{
             font-family: $fuente-logo;
             font-size: $size-letra-titulo-noticia;
-            text-align: left;
-            margin-left: 45px;
+             text-align: center;
+                margin: 10px auto;
         }
         iframe{
-            width: 450px;
+            width: 100%;
+                max-width: 560px;
         }
        
     }
     .olx{
         font-family: $fuente-logo;
+        width: 100%;
+        overflow: hidden;
         h1{
-             font-size: $size-letra-titulo-noticia;
+             font-size: 1em;
+            width: 100%;
         }
         .bk{
             width: 50%;
             height: 85px;
-             
         }
         a{
            
