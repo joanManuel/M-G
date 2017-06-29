@@ -328,6 +328,253 @@ SECCIÓN NOTICIAS */
       background: #8f8f8f;
       text-decoration: none; }
 
+/* INDEX */
+/* CONSULTAS */
+.consultas {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: flex-start;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 100%;
+  background: rgba(243, 247, 240, 0.6); }
+  .consultas .consultas-pedidos, .consultas .educacion, .consultas .servicios-sociales, .consultas .ciudad-sostenible,
+  .consultas .servicio-vecino, .consultas .ciudad-seguro {
+    margin: 5px auto;
+    color: white;
+    height: 140px;
+    display: block;
+    position: relative;
+    width: 90%;
+    background: #494947; }
+    .consultas .consultas-pedidos .titulo, .consultas .educacion .titulo, .consultas .servicios-sociales .titulo, .consultas .ciudad-sostenible .titulo,
+    .consultas .servicio-vecino .titulo, .consultas .ciudad-seguro .titulo {
+      font-size: 14px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 300;
+      text-align: center;
+      position: relative;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      top: 5px;
+      transition: .5s ease;
+      -moz-transition: .5s ease; }
+    .consultas .consultas-pedidos .item1, .consultas .consultas-pedidos .item2, .consultas .consultas-pedidos .item3, .consultas .consultas-pedidos .item4, .consultas .consultas-pedidos .item5, .consultas .consultas-pedidos .item6, .consultas .educacion .item1, .consultas .educacion .item2, .consultas .educacion .item3, .consultas .educacion .item4, .consultas .educacion .item5, .consultas .educacion .item6, .consultas .servicios-sociales .item1, .consultas .servicios-sociales .item2, .consultas .servicios-sociales .item3, .consultas .servicios-sociales .item4, .consultas .servicios-sociales .item5, .consultas .servicios-sociales .item6, .consultas .ciudad-sostenible .item1, .consultas .ciudad-sostenible .item2, .consultas .ciudad-sostenible .item3, .consultas .ciudad-sostenible .item4, .consultas .ciudad-sostenible .item5, .consultas .ciudad-sostenible .item6,
+    .consultas .servicio-vecino .item1,
+    .consultas .servicio-vecino .item2,
+    .consultas .servicio-vecino .item3,
+    .consultas .servicio-vecino .item4,
+    .consultas .servicio-vecino .item5,
+    .consultas .servicio-vecino .item6, .consultas .ciudad-seguro .item1, .consultas .ciudad-seguro .item2, .consultas .ciudad-seguro .item3, .consultas .ciudad-seguro .item4, .consultas .ciudad-seguro .item5, .consultas .ciudad-seguro .item6 {
+      margin-top: 0;
+      position: absolute;
+      top: 30px;
+      width: 100%;
+      transition: .5s ease; }
+      .consultas .consultas-pedidos .item1 li, .consultas .consultas-pedidos .item2 li, .consultas .consultas-pedidos .item3 li, .consultas .consultas-pedidos .item4 li, .consultas .consultas-pedidos .item5 li, .consultas .consultas-pedidos .item6 li, .consultas .educacion .item1 li, .consultas .educacion .item2 li, .consultas .educacion .item3 li, .consultas .educacion .item4 li, .consultas .educacion .item5 li, .consultas .educacion .item6 li, .consultas .servicios-sociales .item1 li, .consultas .servicios-sociales .item2 li, .consultas .servicios-sociales .item3 li, .consultas .servicios-sociales .item4 li, .consultas .servicios-sociales .item5 li, .consultas .servicios-sociales .item6 li, .consultas .ciudad-sostenible .item1 li, .consultas .ciudad-sostenible .item2 li, .consultas .ciudad-sostenible .item3 li, .consultas .ciudad-sostenible .item4 li, .consultas .ciudad-sostenible .item5 li, .consultas .ciudad-sostenible .item6 li,
+      .consultas .servicio-vecino .item1 li,
+      .consultas .servicio-vecino .item2 li,
+      .consultas .servicio-vecino .item3 li,
+      .consultas .servicio-vecino .item4 li,
+      .consultas .servicio-vecino .item5 li,
+      .consultas .servicio-vecino .item6 li, .consultas .ciudad-seguro .item1 li, .consultas .ciudad-seguro .item2 li, .consultas .ciudad-seguro .item3 li, .consultas .ciudad-seguro .item4 li, .consultas .ciudad-seguro .item5 li, .consultas .ciudad-seguro .item6 li {
+        list-style: none;
+        width: 95%;
+        display: block;
+        float: right;
+        top: 0;
+        margin-top: 0; }
+        .consultas .consultas-pedidos .item1 li a, .consultas .consultas-pedidos .item2 li a, .consultas .consultas-pedidos .item3 li a, .consultas .consultas-pedidos .item4 li a, .consultas .consultas-pedidos .item5 li a, .consultas .consultas-pedidos .item6 li a, .consultas .educacion .item1 li a, .consultas .educacion .item2 li a, .consultas .educacion .item3 li a, .consultas .educacion .item4 li a, .consultas .educacion .item5 li a, .consultas .educacion .item6 li a, .consultas .servicios-sociales .item1 li a, .consultas .servicios-sociales .item2 li a, .consultas .servicios-sociales .item3 li a, .consultas .servicios-sociales .item4 li a, .consultas .servicios-sociales .item5 li a, .consultas .servicios-sociales .item6 li a, .consultas .ciudad-sostenible .item1 li a, .consultas .ciudad-sostenible .item2 li a, .consultas .ciudad-sostenible .item3 li a, .consultas .ciudad-sostenible .item4 li a, .consultas .ciudad-sostenible .item5 li a, .consultas .ciudad-sostenible .item6 li a,
+        .consultas .servicio-vecino .item1 li a,
+        .consultas .servicio-vecino .item2 li a,
+        .consultas .servicio-vecino .item3 li a,
+        .consultas .servicio-vecino .item4 li a,
+        .consultas .servicio-vecino .item5 li a,
+        .consultas .servicio-vecino .item6 li a, .consultas .ciudad-seguro .item1 li a, .consultas .ciudad-seguro .item2 li a, .consultas .ciudad-seguro .item3 li a, .consultas .ciudad-seguro .item4 li a, .consultas .ciudad-seguro .item5 li a, .consultas .ciudad-seguro .item6 li a {
+          font-family: "Raleway", sans-serif;
+          font-size: 12px;
+          color: white; }
+          .consultas .consultas-pedidos .item1 li a:link, .consultas .consultas-pedidos .item2 li a:link, .consultas .consultas-pedidos .item3 li a:link, .consultas .consultas-pedidos .item4 li a:link, .consultas .consultas-pedidos .item5 li a:link, .consultas .consultas-pedidos .item6 li a:link, .consultas .educacion .item1 li a:link, .consultas .educacion .item2 li a:link, .consultas .educacion .item3 li a:link, .consultas .educacion .item4 li a:link, .consultas .educacion .item5 li a:link, .consultas .educacion .item6 li a:link, .consultas .servicios-sociales .item1 li a:link, .consultas .servicios-sociales .item2 li a:link, .consultas .servicios-sociales .item3 li a:link, .consultas .servicios-sociales .item4 li a:link, .consultas .servicios-sociales .item5 li a:link, .consultas .servicios-sociales .item6 li a:link, .consultas .ciudad-sostenible .item1 li a:link, .consultas .ciudad-sostenible .item2 li a:link, .consultas .ciudad-sostenible .item3 li a:link, .consultas .ciudad-sostenible .item4 li a:link, .consultas .ciudad-sostenible .item5 li a:link, .consultas .ciudad-sostenible .item6 li a:link,
+          .consultas .servicio-vecino .item1 li a:link,
+          .consultas .servicio-vecino .item2 li a:link,
+          .consultas .servicio-vecino .item3 li a:link,
+          .consultas .servicio-vecino .item4 li a:link,
+          .consultas .servicio-vecino .item5 li a:link,
+          .consultas .servicio-vecino .item6 li a:link, .consultas .ciudad-seguro .item1 li a:link, .consultas .ciudad-seguro .item2 li a:link, .consultas .ciudad-seguro .item3 li a:link, .consultas .ciudad-seguro .item4 li a:link, .consultas .ciudad-seguro .item5 li a:link, .consultas .ciudad-seguro .item6 li a:link {
+            text-decoration: none; }
+    .consultas .consultas-pedidos .item2, .consultas .educacion .item2, .consultas .servicios-sociales .item2, .consultas .ciudad-sostenible .item2,
+    .consultas .servicio-vecino .item2, .consultas .ciudad-seguro .item2 {
+      margin-top: 15px; }
+
+/*
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.sec-consul{
+  text-align: center;
+  img{
+    margin-top: -52px;
+  }
+  
+}
+figure{
+  margin: 0 auto;
+  width: 940px;
+  img{
+    
+  }
+}
+*/
+/* EDUCACION */
+.consultas {
+  height: 100%; }
+  .consultas .educacion {
+    margin: 10px auto;
+    background: #494947; }
+    .consultas .educacion h1 {
+      font-size: 14px;
+      font-family: "Raleway", sans-serif;
+      color: white;
+      text-align: center;
+      position: relative;
+      top: 4px;
+      margin-top: 10px; }
+    .consultas .educacion .item2 {
+      height: 90px; }
+      .consultas .educacion .item2 li {
+        list-style: none;
+        width: 95%;
+        display: block;
+        float: right;
+        top: 0;
+        margin-top: 0; }
+        .consultas .educacion .item2 li a {
+          font-family: "Raleway", sans-serif;
+          font-size: 12px;
+          color: white; }
+          .consultas .educacion .item2 li a:link {
+            text-decoration: none; }
+
+/* PAGINA TRAMITE DOCUMENTARIO */
+.content {
+  top: 0;
+  margin: 10px 0 0 0;
+  background: white;
+  height: auto;
+  max-height: 520px; }
+  .content figure {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 940px;
+    height: auto; }
+    .content figure img {
+      width: 100%; }
+  .content h1 {
+    color: #494947;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    margin-left: 20px; }
+  .content .formulario .tipo {
+    display: block;
+    text-align: center; }
+  .content .formulario .anio {
+    display: block;
+    text-align: center; }
+  .content .formulario .nro {
+    display: block;
+    text-align: center; }
+  .content .formulario form h3 {
+    font-family: "Raleway", sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    padding: 0; }
+  .content .formulario form select {
+    background: transparent;
+    border: 1px solid rgba(255, 92, 67, 0.8);
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 180px;
+    margin-left: 20px; }
+    .content .formulario form select:focus {
+      outline-color: none; }
+  .content .formulario form input {
+    margin-left: 10px;
+    border: none;
+    border-bottom: 2px solid red;
+    width: 150px;
+    text-align: center;
+    font-size: 16px; }
+    .content .formulario form input:focus {
+      outline: none; }
+  .content .formulario form .boton {
+    width: 120px;
+    background: #ff5c43;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    display: block;
+    margin: 30px auto 20px auto; }
+    .content .formulario form .boton:hover {
+      background: rgba(255, 92, 67, 0.8); }
+
+.busqueda {
+  margin: 0;
+  padding: 0;
+  height: 300px;
+  background: green; }
+  .busqueda h1 {
+    margin-top: 0;
+    background: red; }
+
+/* EDUCACION */
+.educacion {
+  margin: 0 auto;
+  width: 210px;
+  height: 130px;
+  background: #494947; }
+  .educacion h1 {
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 4px; }
+  .educacion ul {
+    padding: 0;
+    margin: 0; }
+    .educacion ul li {
+      list-style: none;
+      width: 90%;
+      display: block;
+      float: right; }
+      .educacion ul li a {
+        font-family: "Raleway", sans-serif;
+        font-size: 12px;
+        color: white; }
+        .educacion ul li a:link {
+          text-decoration: none; }
+
 @media only screen and (min-width: 320px) {
   body {
     background: url(../img/fondo-movil-480.png) no-repeat; }
@@ -618,6 +865,7 @@ SECCIÓN NOTICIAS */
       display: block;
       position: relative;
       width: 210px;
+      width: 210px;
       background: #494947; }
       .consultas .consultas-pedidos .titulo, .consultas .educacion .titulo, .consultas .servicios-sociales .titulo, .consultas .ciudad-sostenible .titulo,
       .consultas .servicio-vecino .titulo, .consultas .ciudad-seguro .titulo {
@@ -639,7 +887,8 @@ SECCIÓN NOTICIAS */
       .consultas .servicio-vecino .item5,
       .consultas .servicio-vecino .item6, .consultas .ciudad-seguro .item1, .consultas .ciudad-seguro .item2, .consultas .ciudad-seguro .item3, .consultas .ciudad-seguro .item4, .consultas .ciudad-seguro .item5, .consultas .ciudad-seguro .item6 {
         margin-top: 0;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        width: 210px; }
         .consultas .consultas-pedidos .item1 li, .consultas .consultas-pedidos .item2 li, .consultas .consultas-pedidos .item3 li, .consultas .consultas-pedidos .item4 li, .consultas .consultas-pedidos .item5 li, .consultas .consultas-pedidos .item6 li, .consultas .educacion .item1 li, .consultas .educacion .item2 li, .consultas .educacion .item3 li, .consultas .educacion .item4 li, .consultas .educacion .item5 li, .consultas .educacion .item6 li, .consultas .servicios-sociales .item1 li, .consultas .servicios-sociales .item2 li, .consultas .servicios-sociales .item3 li, .consultas .servicios-sociales .item4 li, .consultas .servicios-sociales .item5 li, .consultas .servicios-sociales .item6 li, .consultas .ciudad-sostenible .item1 li, .consultas .ciudad-sostenible .item2 li, .consultas .ciudad-sostenible .item3 li, .consultas .ciudad-sostenible .item4 li, .consultas .ciudad-sostenible .item5 li, .consultas .ciudad-sostenible .item6 li,
         .consultas .servicio-vecino .item1 li,
         .consultas .servicio-vecino .item2 li,
@@ -1173,256 +1422,6 @@ Los cambios están en las medias queries.
     top: 0; }
     .ocult .contenedor-imagen .hero-trans {
       top: 0; } }
-/* INDEX */
-/* CONSULTAS */
-.box-consult {
-  width: 100%; }
-
-.consultas {
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: baseline;
-  align-content: flex-start;
-  margin: 0 auto;
-  margin-top: 15px;
-  width: 100%;
-  background: rgba(243, 247, 240, 0.6); }
-  .consultas .consultas-pedidos, .consultas .educacion, .consultas .servicios-sociales, .consultas .ciudad-sostenible,
-  .consultas .servicio-vecino, .consultas .ciudad-seguro {
-    margin: 5px auto;
-    color: white;
-    height: 140px;
-    display: block;
-    position: relative;
-    width: 90%;
-    background: #494947; }
-    .consultas .consultas-pedidos .titulo, .consultas .educacion .titulo, .consultas .servicios-sociales .titulo, .consultas .ciudad-sostenible .titulo,
-    .consultas .servicio-vecino .titulo, .consultas .ciudad-seguro .titulo {
-      font-size: 14px;
-      font-family: "Raleway", sans-serif;
-      font-weight: 300;
-      text-align: center;
-      position: relative;
-      margin-top: 10px;
-      margin-bottom: 5px;
-      top: 5px;
-      transition: .5s ease;
-      -moz-transition: .5s ease; }
-    .consultas .consultas-pedidos .item1, .consultas .consultas-pedidos .item2, .consultas .consultas-pedidos .item3, .consultas .consultas-pedidos .item4, .consultas .consultas-pedidos .item5, .consultas .consultas-pedidos .item6, .consultas .educacion .item1, .consultas .educacion .item2, .consultas .educacion .item3, .consultas .educacion .item4, .consultas .educacion .item5, .consultas .educacion .item6, .consultas .servicios-sociales .item1, .consultas .servicios-sociales .item2, .consultas .servicios-sociales .item3, .consultas .servicios-sociales .item4, .consultas .servicios-sociales .item5, .consultas .servicios-sociales .item6, .consultas .ciudad-sostenible .item1, .consultas .ciudad-sostenible .item2, .consultas .ciudad-sostenible .item3, .consultas .ciudad-sostenible .item4, .consultas .ciudad-sostenible .item5, .consultas .ciudad-sostenible .item6,
-    .consultas .servicio-vecino .item1,
-    .consultas .servicio-vecino .item2,
-    .consultas .servicio-vecino .item3,
-    .consultas .servicio-vecino .item4,
-    .consultas .servicio-vecino .item5,
-    .consultas .servicio-vecino .item6, .consultas .ciudad-seguro .item1, .consultas .ciudad-seguro .item2, .consultas .ciudad-seguro .item3, .consultas .ciudad-seguro .item4, .consultas .ciudad-seguro .item5, .consultas .ciudad-seguro .item6 {
-      margin-top: 0;
-      position: absolute;
-      top: 30px;
-      width: 100%;
-      transition: .5s ease; }
-      .consultas .consultas-pedidos .item1 li, .consultas .consultas-pedidos .item2 li, .consultas .consultas-pedidos .item3 li, .consultas .consultas-pedidos .item4 li, .consultas .consultas-pedidos .item5 li, .consultas .consultas-pedidos .item6 li, .consultas .educacion .item1 li, .consultas .educacion .item2 li, .consultas .educacion .item3 li, .consultas .educacion .item4 li, .consultas .educacion .item5 li, .consultas .educacion .item6 li, .consultas .servicios-sociales .item1 li, .consultas .servicios-sociales .item2 li, .consultas .servicios-sociales .item3 li, .consultas .servicios-sociales .item4 li, .consultas .servicios-sociales .item5 li, .consultas .servicios-sociales .item6 li, .consultas .ciudad-sostenible .item1 li, .consultas .ciudad-sostenible .item2 li, .consultas .ciudad-sostenible .item3 li, .consultas .ciudad-sostenible .item4 li, .consultas .ciudad-sostenible .item5 li, .consultas .ciudad-sostenible .item6 li,
-      .consultas .servicio-vecino .item1 li,
-      .consultas .servicio-vecino .item2 li,
-      .consultas .servicio-vecino .item3 li,
-      .consultas .servicio-vecino .item4 li,
-      .consultas .servicio-vecino .item5 li,
-      .consultas .servicio-vecino .item6 li, .consultas .ciudad-seguro .item1 li, .consultas .ciudad-seguro .item2 li, .consultas .ciudad-seguro .item3 li, .consultas .ciudad-seguro .item4 li, .consultas .ciudad-seguro .item5 li, .consultas .ciudad-seguro .item6 li {
-        list-style: none;
-        width: 95%;
-        display: block;
-        float: right;
-        top: 0;
-        margin-top: 0; }
-        .consultas .consultas-pedidos .item1 li a, .consultas .consultas-pedidos .item2 li a, .consultas .consultas-pedidos .item3 li a, .consultas .consultas-pedidos .item4 li a, .consultas .consultas-pedidos .item5 li a, .consultas .consultas-pedidos .item6 li a, .consultas .educacion .item1 li a, .consultas .educacion .item2 li a, .consultas .educacion .item3 li a, .consultas .educacion .item4 li a, .consultas .educacion .item5 li a, .consultas .educacion .item6 li a, .consultas .servicios-sociales .item1 li a, .consultas .servicios-sociales .item2 li a, .consultas .servicios-sociales .item3 li a, .consultas .servicios-sociales .item4 li a, .consultas .servicios-sociales .item5 li a, .consultas .servicios-sociales .item6 li a, .consultas .ciudad-sostenible .item1 li a, .consultas .ciudad-sostenible .item2 li a, .consultas .ciudad-sostenible .item3 li a, .consultas .ciudad-sostenible .item4 li a, .consultas .ciudad-sostenible .item5 li a, .consultas .ciudad-sostenible .item6 li a,
-        .consultas .servicio-vecino .item1 li a,
-        .consultas .servicio-vecino .item2 li a,
-        .consultas .servicio-vecino .item3 li a,
-        .consultas .servicio-vecino .item4 li a,
-        .consultas .servicio-vecino .item5 li a,
-        .consultas .servicio-vecino .item6 li a, .consultas .ciudad-seguro .item1 li a, .consultas .ciudad-seguro .item2 li a, .consultas .ciudad-seguro .item3 li a, .consultas .ciudad-seguro .item4 li a, .consultas .ciudad-seguro .item5 li a, .consultas .ciudad-seguro .item6 li a {
-          font-family: "Raleway", sans-serif;
-          font-size: 12px;
-          color: white; }
-          .consultas .consultas-pedidos .item1 li a:link, .consultas .consultas-pedidos .item2 li a:link, .consultas .consultas-pedidos .item3 li a:link, .consultas .consultas-pedidos .item4 li a:link, .consultas .consultas-pedidos .item5 li a:link, .consultas .consultas-pedidos .item6 li a:link, .consultas .educacion .item1 li a:link, .consultas .educacion .item2 li a:link, .consultas .educacion .item3 li a:link, .consultas .educacion .item4 li a:link, .consultas .educacion .item5 li a:link, .consultas .educacion .item6 li a:link, .consultas .servicios-sociales .item1 li a:link, .consultas .servicios-sociales .item2 li a:link, .consultas .servicios-sociales .item3 li a:link, .consultas .servicios-sociales .item4 li a:link, .consultas .servicios-sociales .item5 li a:link, .consultas .servicios-sociales .item6 li a:link, .consultas .ciudad-sostenible .item1 li a:link, .consultas .ciudad-sostenible .item2 li a:link, .consultas .ciudad-sostenible .item3 li a:link, .consultas .ciudad-sostenible .item4 li a:link, .consultas .ciudad-sostenible .item5 li a:link, .consultas .ciudad-sostenible .item6 li a:link,
-          .consultas .servicio-vecino .item1 li a:link,
-          .consultas .servicio-vecino .item2 li a:link,
-          .consultas .servicio-vecino .item3 li a:link,
-          .consultas .servicio-vecino .item4 li a:link,
-          .consultas .servicio-vecino .item5 li a:link,
-          .consultas .servicio-vecino .item6 li a:link, .consultas .ciudad-seguro .item1 li a:link, .consultas .ciudad-seguro .item2 li a:link, .consultas .ciudad-seguro .item3 li a:link, .consultas .ciudad-seguro .item4 li a:link, .consultas .ciudad-seguro .item5 li a:link, .consultas .ciudad-seguro .item6 li a:link {
-            text-decoration: none; }
-    .consultas .consultas-pedidos .item2, .consultas .educacion .item2, .consultas .servicios-sociales .item2, .consultas .ciudad-sostenible .item2,
-    .consultas .servicio-vecino .item2, .consultas .ciudad-seguro .item2 {
-      margin-top: 15px; }
-
-/*
-
-.text {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-
-.sec-consul{
-  text-align: center;
-  img{
-    margin-top: -52px;
-  }
-  
-}
-figure{
-  margin: 0 auto;
-  width: 940px;
-  img{
-    
-  }
-}
-*/
-/* EDUCACION */
-.consultas {
-  height: 100%; }
-  .consultas .educacion {
-    margin: 10px auto;
-    background: #494947; }
-    .consultas .educacion h1 {
-      font-size: 14px;
-      font-family: "Raleway", sans-serif;
-      color: white;
-      text-align: center;
-      position: relative;
-      top: 4px;
-      margin-top: 10px; }
-    .consultas .educacion .item2 {
-      height: 90px; }
-      .consultas .educacion .item2 li {
-        list-style: none;
-        width: 95%;
-        display: block;
-        float: right;
-        top: 0;
-        margin-top: 0; }
-        .consultas .educacion .item2 li a {
-          font-family: "Raleway", sans-serif;
-          font-size: 12px;
-          color: white; }
-          .consultas .educacion .item2 li a:link {
-            text-decoration: none; }
-
-/* PAGINA TRAMITE DOCUMENTARIO */
-.content {
-  top: 0;
-  margin: 10px 0 0 0;
-  background: white;
-  height: auto;
-  max-height: 520px; }
-  .content figure {
-    margin-top: 10px;
-    width: 100%;
-    max-width: 940px;
-    height: auto; }
-    .content figure img {
-      width: 100%; }
-  .content h1 {
-    color: #494947;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    margin-left: 20px; }
-  .content .formulario .tipo {
-    display: block;
-    text-align: center; }
-  .content .formulario .anio {
-    display: block;
-    text-align: center; }
-  .content .formulario .nro {
-    display: block;
-    text-align: center; }
-  .content .formulario form h3 {
-    font-family: "Raleway", sans-serif;
-    display: inline-block;
-    font-size: 18px;
-    padding: 0; }
-  .content .formulario form select {
-    background: transparent;
-    border: 1px solid rgba(255, 92, 67, 0.8);
-    font-size: 14px;
-    height: 30px;
-    padding: 5px;
-    width: 180px;
-    margin-left: 20px; }
-    .content .formulario form select:focus {
-      outline-color: none; }
-  .content .formulario form input {
-    margin-left: 10px;
-    border: none;
-    border-bottom: 2px solid red;
-    width: 150px;
-    text-align: center;
-    font-size: 16px; }
-    .content .formulario form input:focus {
-      outline: none; }
-  .content .formulario form .boton {
-    width: 120px;
-    background: #ff5c43;
-    font-family: "Raleway", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: white;
-    border: 0 none;
-    border-radius: 1px;
-    cursor: pointer;
-    padding: 10px 5px;
-    display: block;
-    margin: 30px auto 20px auto; }
-    .content .formulario form .boton:hover {
-      background: rgba(255, 92, 67, 0.8); }
-
-.busqueda {
-  margin: 0;
-  padding: 0;
-  height: 300px;
-  background: green; }
-  .busqueda h1 {
-    margin-top: 0;
-    background: red; }
-
-/* EDUCACION */
-.educacion {
-  margin: 0 auto;
-  width: 210px;
-  height: 130px;
-  background: #494947; }
-  .educacion h1 {
-    font-size: 14px;
-    font-family: "Raleway", sans-serif;
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 4px; }
-  .educacion ul {
-    padding: 0;
-    margin: 0; }
-    .educacion ul li {
-      list-style: none;
-      width: 90%;
-      display: block;
-      float: right; }
-      .educacion ul li a {
-        font-family: "Raleway", sans-serif;
-        font-size: 12px;
-        color: white; }
-        .educacion ul li a:link {
-          text-decoration: none; }
-
 footer {
   background: #494947;
   font-family: "Raleway", sans-serif; }

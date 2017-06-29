@@ -445,7 +445,7 @@ header
         height: 140px;
         display: block;
         position: relative;
-        
+        width: 210px;
       .titulo{
         font-size: 14px;
         font-family: $tipo-letra-menu;
@@ -462,6 +462,7 @@ header
         //padding: 10px;
         margin-top: 0;
         margin-bottom: 10px;
+             width: 210px;
         
     li{
         list-style: none;
