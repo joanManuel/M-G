@@ -19,6 +19,7 @@ $(window).scroll(function(){
 
 
 //EFECTO NOTICIAS
+/*
 $(document).ready(function(){
     var ancho = $(window).width();    
     var point = 992;
@@ -71,6 +72,8 @@ $(document).ready(function(){
         e.preventDefault();
         $('.subm-3').toggle('slow');
    });
+    */
+    
         /*
     var breakpoint = 768;
     $(window).resize(function(){
@@ -80,7 +83,7 @@ $(document).ready(function(){
     }else {
         $('.navegacion').hide();
     }   
-    });*/
-        
+    });
 });
-
+*/
+        

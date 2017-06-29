@@ -594,37 +594,6 @@ SECCIÓN NOTICIAS */
       max-width: 640px;
       height: 420px; }
 
-  .post-slide {
-    width: 100%;
-    max-width: 278px; }
-    .post-slide .post-content {
-      position: relative;
-      padding: 10px;
-      z-index: 90;
-      top: 0;
-      height: 160px; }
-    .post-slide .efectoNoticias {
-      position: relative;
-      top: -10px;
-      z-index: 80;
-      opacity: 0;
-      display: none;
-      margin-top: 2px;
-      transition-duration: 0.4s; }
-    .post-slide .post-description {
-      margin-top: 15px;
-      margin-bottom: 10px;
-      line-height: 20px; }
-    .post-slide .post-bar {
-      margin-top: 10px;
-      margin-bottom: 0; }
-      .post-slide .post-bar li {
-        margin-top: 5px; }
-    .post-slide .read-more {
-      position: absolute;
-      display: inline-block;
-      bottom: 4%; }
-
   .enla_exter {
     display: block;
     width: 100%;
@@ -728,8 +697,9 @@ Los cambios están en las medias queries.
 
 .box-noticias {
   display: block;
+  margin: 0 auto;
   margin-top: 10px;
-  width: 100%;
+  width: 98%;
   height: 100%;
   max-height: 650px;
   background: rgba(243, 247, 240, 0.6);
@@ -1032,12 +1002,18 @@ Los cambios están en las medias queries.
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: baseline;
-  align-content: flex-start; }
+  align-content: flex-start;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 98%;
+  background: rgba(243, 247, 240, 0.6); }
   .consultas .consultas-pedidos, .consultas .educacion, .consultas .servicios-sociales, .consultas .ciudad-sostenible,
   .consultas .servicio-vecino, .consultas .ciudad-seguro {
     margin: 5px auto;
     color: white;
     height: 140px;
+    display: block;
+    position: relative;
     width: 210px;
     background: #494947; }
     .consultas .consultas-pedidos .titulo, .consultas .educacion .titulo, .consultas .servicios-sociales .titulo, .consultas .ciudad-sostenible .titulo,

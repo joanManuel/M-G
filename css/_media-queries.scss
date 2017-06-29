@@ -425,54 +425,10 @@ header
     
     
     //SECCIÓN NOTICIAS
-    
-    
-    .post-slide{
-          width: 100%;
-        max-width: 278px;
-        //height: 335px;
-        //max-height: 335px;
-        .post-content{
-        position: relative;
+    .owl-carousel{
         
-        padding: 10px;
-        z-index: 90;
-        top: 0;
-        height: 160px;
-        //max-height:160px;    
-            
-        }
-        .efectoNoticias{
-           position: relative;
-            top: -10px;
-            z-index: 80;
-            opacity: 0;
-            display: none;
-            margin-top: 2px;
-            transition-duration: 0.4s;
-                }
-        .post-description{
-            margin-top: 15px;
-           margin-bottom: 10px; 
-            line-height: 20px;
-        }
-        .post-bar{
-            //top: 20px;
-            margin-top: 10px;
-             margin-bottom: 0; 
-            li{
-                margin-top: 5px;
-            }
-        }
-        .read-more{
-            
-            position: absolute;
-            display: inline-block;
-            
-            bottom: 4%;
-           
-        }
     }
+    
     //sección enlaces externos
     .enla_exter{
         display: block;

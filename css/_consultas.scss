@@ -9,12 +9,18 @@
     justify-content: flex-start;
     align-items: baseline;
     align-content: flex-start;
-    
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 98%;
+    background: $fondo-noticias;
     .consultas-pedidos, .educacion,.servicios-sociales,.ciudad-sostenible,
     .servicio-vecino,.ciudad-seguro{  
         margin: 5px auto;
         color: white;
         height: 140px;
+        display: block;
+        position: relative;
+        
       .titulo{
         font-size: 14px;
         font-family: $tipo-letra-menu;
